@@ -1,0 +1,29 @@
+[
+  {
+    "name": "bank",
+    "credits": [
+      {
+        "name": "Lady",
+        "purposeLoan" : "purchase of products",
+        "rate": 22.5,
+        "repayment": false,
+        "term": 3,
+        "amount": 5000,
+        "getMoney": "debit card",
+        "specialConditions": "annual rate reduction",
+        "borrower": "Lady Club"
+      },
+      {
+        "name": "Lady",
+        "purposeLoan" : "purchase of products",
+        "rate": 30,
+        "repayment": false,
+        "term": 3,
+        "amount": 5000,
+        "getMoney": "debit card",
+        "specialConditions": "annual rate reduction",
+        "borrower": "Lady Club"
+      }
+    ]
+  }
+]

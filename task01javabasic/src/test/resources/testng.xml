@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="SuiteParam" verbose="1">
+    <parameter name="testng" value=""/>
+    <parameter name="expectedDegree" value=""/>
+    <test name="TestParam">
+        <classes>
+            <class name="by.arabienko.task01javabasic.service.GeometryServiceTest">
+                <methods>
+                    <include name="testRadToDegree"/>
+                    <include name="testDegree"/>
+                    <include name="testMinute"/>
+                    <include name="testSecond"/>
+                    <include name="testCircle"/>
+                    <include name="testAreaOfCircle"/>
+                    <include name="testTriangle"/>
+                </methods>
+            </class>
+            <class name="by.arabienko.task01javabasic.service.ArithmeticServiceTest">
+                <methods>
+                    <!--<include name="testSum"/>
+                    <include name="testMultiply"/>
+                    <include name="testExponentiation"/>-->
+                </methods>
+            </class>
+            <class name="by.arabienko.task01javabasic.service.ExpressionServiceTest">
+                <methods>
+                    <!--<include name="testSum"/>
+                    <include name="testMultiply"/>
+                    <include name="testExponentiation"/>-->
+                </methods>
+            </class>
+            <class name="by.arabienko.task01javabasic.service.CyclesServiceTest">
+                <methods>
+                    <!--<include name="testSum"/>
+                    <include name="testMultiply"/>
+                    <include name="testExponentiation"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

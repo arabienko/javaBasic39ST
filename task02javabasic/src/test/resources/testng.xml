@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="SuiteParam" verbose="1">
+    <parameter name="testng" value=""/>
+    <parameter name="expectedDegree" value=""/>
+    <test name="TestMatrixOperation">
+        <classes>
+            <class name="by.arabienko.task02javabasic.service.MatrixOperationsTest">
+                <methods>
+                    <include name="testMatrixSum"/>
+                    <include name="testMatrixSubtraction"/>
+                    <include name="dateForArithmeticMultiply"/>
+                    <include name="testMatrixMultiplyNumber"/>
+                    <include name="testMergeSortMassive"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="TestMassiveSort">
+        <classes>
+            <class name="by.arabienko.task02javabasic.service.SortingMassiveTest">
+                <methods>
+                    <include name="testExchangeSortMassive"/>
+                    <include name="testShakerSortMassive"/>
+                    <include name="testSimpleSelectSortMassive"/>
+                    <include name="testInsertionSortMassive"/>
+                    <include name="testMergeSortMassive"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+    <test name="TestCreateMassive">
+        <classes>
+            <class name="by.arabienko.task02javabasic.service.impl.CreateMassiveImplFromFileTest">
+                <methods>
+                    <include name="testCreateArray"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+    <test name="TestCreateMatrix">
+        <classes>
+            <class name="by.arabienko.task02javabasic.service.impl.CreateMatrixImplFromFileTest">
+                <methods>
+                    <include name="testCreateArray"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+
+</suite>

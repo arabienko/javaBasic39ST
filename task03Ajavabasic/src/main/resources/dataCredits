@@ -1,0 +1,152 @@
+[
+  {
+    "bankName": "Belarusbank",
+    "credits": [
+      {
+        "name": "Consumer",
+        "purposeLoan": "purchase of products",
+        "rate": 23.5,
+        "repayment": true,
+        "term": 5,
+        "amount": 5800,
+        "getMoney": "credit card/cashless/debit card",
+        "specialConditions": "Possibility of registration without confirmation of income",
+        "borrower": "On a universal basis"
+      },
+      {
+        "name": "Lady",
+        "purposeLoan": "purchase of products",
+        "rate": 22.5,
+        "repayment": false,
+        "term": 3,
+        "amount": 5000,
+        "getMoney": "debit card",
+        "specialConditions": "annual rate reduction",
+        "borrower": "Lady Club"
+      },
+      {
+        "name": "Optimal partner",
+        "purposeLoan": "purchase of products",
+        "rate": 18,
+        "repayment": true,
+        "term": 3,
+        "amount": 5800,
+        "getMoney": "cashless",
+        "specialConditions": "Deferral of payment up to 12 months",
+        "borrower": "On a universal basis"
+      },
+      {
+        "name": "Mortgage express",
+        "purposeLoan": "home purchase",
+        "rate": 21,
+        "repayment": true,
+        "term": 20,
+        "getMoney": "cashless",
+        "borrower": "citizen RB"
+      },
+      {
+        "name": "Young specialist",
+        "purposeLoan": "purchase of products",
+        "rate": 25,
+        "repayment": true,
+        "term": 5,
+        "amount": 4252,
+        "getMoney": "credit card",
+        "specialConditions": "grace period 6 months",
+        "borrower": "young specialist"
+      },
+      {
+        "name": "For the reconstruction or building of housing",
+        "purposeLoan": "home purchase",
+        "rate": 3,
+        "repayment": true,
+        "term": 10,
+        "getMoney": "cashless",
+        "borrower": "citizen RB"
+      },
+      {
+        "name": "Preferential loans for housing construction",
+        "purposeLoan": "home purchase",
+        "rate": 1,
+        "repayment": true,
+        "term": 20,
+        "getMoney": "cashless",
+        "borrower": "large families"
+      },
+      {
+        "name": "Preferential loans for housing construction",
+        "purposeLoan": "home purchase",
+        "rate": 5,
+        "repayment": true,
+        "term": 20,
+        "getMoney": "cashless",
+        "borrower": "Military personnel"
+      }
+    ]
+  },
+  {
+    "bankName": "BPS-BANK",
+    "credits": [
+      {
+        "name": "Consumer ALL",
+        "purposeLoan": "purchase of products",
+        "rate": 22,
+        "repayment": true,
+        "term": 5,
+        "amount": 5800,
+        "getMoney": "credit card/cashless/debit card",
+        "borrower": "On a universal basis"
+      },
+      {
+        "name": "Lady Gold",
+        "purposeLoan": "purchase of products",
+        "rate": 23.5,
+        "repayment": false,
+        "term": 3,
+        "amount": 5000,
+        "getMoney": "debit card",
+        "specialConditions": "annual rate reduction",
+        "borrower": "Lady Club"
+      },
+      {
+        "name": "Optimal",
+        "purposeLoan": "purchase of products",
+        "rate": 20,
+        "repayment": true,
+        "term": 3,
+        "amount": 5800,
+        "getMoney": "cashless",
+        "specialConditions": "Deferral of payment up to 6 months",
+        "borrower": "On a universal basis"
+      },
+      {
+        "name": "Mortgage",
+        "purposeLoan": "home purchase",
+        "rate": 25,
+        "repayment": true,
+        "term": 20,
+        "getMoney": "cashless",
+        "borrower": "citizen RB"
+      },
+      {
+        "name": "For the reconstruction or building of housing",
+        "purposeLoan": "home purchase",
+        "rate": 5,
+        "repayment": true,
+        "term": 10,
+        "getMoney": "cashless",
+        "borrower": "citizen RB"
+      },
+      {
+        "name": "Preferential loans for housing construction",
+        "purposeLoan": "home purchase",
+        "rate": 100,
+        "repayment": true,
+        "term": 20,
+        "getMoney": "cashless",
+        "borrower": "Military personnel"
+      }
+    ]
+  }
+]
+

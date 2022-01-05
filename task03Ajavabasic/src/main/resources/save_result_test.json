@@ -1,0 +1,23 @@
+[
+  {
+    "bankName": "bank",
+    "credit": [
+      {
+        "name": "Lady",
+        "purposeLoan": "purchase of products",
+        "rate": 22.5,
+        "term": 3,
+        "borrower": "Lady Club",
+        "amount": 5000.0
+      },
+      {
+        "name": "Lady",
+        "purposeLoan": "purchase of products",
+        "rate": 30.0,
+        "term": 3,
+        "borrower": "Lady Club",
+        "amount": 5000.0
+      }
+    ]
+  }
+]

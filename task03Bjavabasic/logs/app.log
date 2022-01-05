@@ -1,0 +1,73 @@
+2022-01-03 14:34:00 [main] DEBUG arabienko.controller.command.impl.ReadFileCommand - Task received: ReadFile 
+2022-01-03 14:34:00 [main] DEBUG by.arabienko.service.impl.ReadFile - File was parsed: programGuid
+2022-01-03 14:34:00 [main] DEBUG arabienko.controller.command.impl.GuidChannelCommand - Task received: GuidChannel 
+2022-01-03 14:34:00 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The list of programs has been generatedclass by.arabienko.service.impl.GetGuidChannel
+2022-01-04 09:23:31 [main] DEBUG by.arabienko.service.impl.ReadFile - File was parsed: testGuid
+2022-01-04 09:24:19 [main] DEBUG by.arabienko.service.impl.ReadFile - File was parsed: testGuid
+2022-01-04 09:25:47 [main] DEBUG by.arabienko.service.impl.ReadFile - File was parsed: testGuid
+2022-01-04 09:32:34 [main] DEBUG by.arabienko.service.impl.ReadFile - File was parsed: testGuid
+2022-01-04 09:32:34 [main] DEBUG by.arabienko.service.impl.ReadFile - File name is empty.
+2022-01-04 09:34:33 [main] DEBUG by.arabienko.service.impl.ReadFile - File was parsed: testGuid
+2022-01-04 09:34:33 [main] DEBUG by.arabienko.service.impl.ReadFile - File name is empty.
+2022-01-04 09:34:33 [main] DEBUG by.arabienko.service.impl.ReadFile - File was parsed: testGuid2
+2022-01-04 09:36:24 [main] DEBUG by.arabienko.service.impl.ReadFile - File was parsed: testGuid
+2022-01-04 09:36:24 [main] DEBUG by.arabienko.service.impl.ReadFile - File name is empty.
+2022-01-04 09:36:24 [main] DEBUG by.arabienko.service.impl.ReadFile - File was parsed: testGuid2
+2022-01-04 09:36:57 [main] DEBUG by.arabienko.service.impl.ReadFile - File was parsed: testGuid
+2022-01-04 09:36:57 [main] DEBUG by.arabienko.service.impl.ReadFile - File name is empty.
+2022-01-04 09:36:57 [main] DEBUG by.arabienko.service.impl.ReadFile - File was parsed: testGuid2
+2022-01-04 09:37:13 [main] DEBUG by.arabienko.service.impl.ReadFile - File was parsed: testGuid
+2022-01-04 09:37:13 [main] DEBUG by.arabienko.service.impl.ReadFile - File name is empty.
+2022-01-04 09:37:13 [main] DEBUG by.arabienko.service.impl.ReadFile - File was parsed: testGuid2
+2022-01-04 10:17:54 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The choice is empty.
+2022-01-04 10:18:25 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The list of programs has been generatedclass by.arabienko.service.impl.GetGuidAfterTime
+2022-01-04 10:21:04 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The list of programs has been generatedclass by.arabienko.service.impl.GetGuidAfterTime
+2022-01-04 10:21:04 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The list of programs has been generatedclass by.arabienko.service.impl.GetGuidAfterTime
+2022-01-04 10:22:09 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The choice is empty.
+2022-01-04 10:22:09 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The choice is empty.
+2022-01-04 10:22:53 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The list of programs has been generatedclass by.arabienko.service.impl.GetGuidAfterTime
+2022-01-04 10:22:53 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The choice is empty.
+2022-01-04 10:23:43 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The list of programs has been generatedclass by.arabienko.service.impl.GetGuidAfterTime
+2022-01-04 10:23:43 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The choice is empty.
+2022-01-04 10:23:43 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The choice is empty.
+2022-01-04 10:24:47 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The list of programs has been generatedclass by.arabienko.service.impl.GetGuidAfterTime
+2022-01-04 10:24:47 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The choice is empty.
+2022-01-04 10:24:47 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The choice is empty.
+2022-01-04 10:24:47 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The list of programs has been generatedclass by.arabienko.service.impl.GetGuidAfterTime
+2022-01-04 10:25:29 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The list of programs has been generatedclass by.arabienko.service.impl.GetGuidAfterTime
+2022-01-04 10:25:29 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The choice is empty.
+2022-01-04 10:25:29 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The choice is empty.
+2022-01-04 10:25:29 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The list of programs has been generatedclass by.arabienko.service.impl.GetGuidAfterTime
+2022-01-04 10:26:17 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The list of programs has been generatedclass by.arabienko.service.impl.GetGuidAfterTime
+2022-01-04 10:26:17 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The choice is empty.
+2022-01-04 10:26:17 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The choice is empty.
+2022-01-04 10:26:17 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The list of programs has been generatedclass by.arabienko.service.impl.GetGuidAfterTime
+2022-01-04 10:26:35 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The list of programs has been generatedclass by.arabienko.service.impl.GetGuidAfterTime
+2022-01-04 10:26:35 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The choice is empty.
+2022-01-04 10:26:35 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The choice is empty.
+2022-01-04 10:26:35 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The list of programs has been generatedclass by.arabienko.service.impl.GetGuidAfterTime
+2022-01-04 10:26:51 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The list of programs has been generatedclass by.arabienko.service.impl.GetGuidAfterTime
+2022-01-04 10:26:51 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The choice is empty.
+2022-01-04 10:26:51 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The choice is empty.
+2022-01-04 10:26:51 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The list of programs has been generatedclass by.arabienko.service.impl.GetGuidAfterTime
+2022-01-04 10:36:41 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The list of programs has been generatedclass by.arabienko.service.impl.GetGuidAfterTime
+2022-01-04 10:36:41 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The choice is empty.
+2022-01-04 10:36:41 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The choice is empty.
+2022-01-04 10:36:41 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The list of programs has been generatedclass by.arabienko.service.impl.GetGuidAfterTime
+2022-01-04 10:36:46 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The list of programs has been generatedclass by.arabienko.service.impl.GetGuidChannel
+2022-01-04 10:37:30 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The list of programs has been generatedclass by.arabienko.service.impl.GetGuidChannel
+2022-01-04 10:37:30 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - No data for create program guid.
+2022-01-04 10:38:08 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The list of programs has been generatedclass by.arabienko.service.impl.GetGuidChannel
+2022-01-04 10:38:08 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - No data for create program guid.
+2022-01-04 10:38:08 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The choice is empty.
+2022-01-04 10:39:10 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The list of programs has been generatedclass by.arabienko.service.impl.GetGuidChannel
+2022-01-04 10:39:10 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - No data for create program guid.
+2022-01-04 10:39:10 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The choice is empty.
+2022-01-04 10:40:17 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The list of programs has been generatedclass by.arabienko.service.impl.GetGuidChannel
+2022-01-04 10:40:17 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The choice is empty.
+2022-01-04 10:40:17 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - No data for create program guid.
+2022-01-04 10:40:17 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The choice is empty.
+2022-01-04 10:41:40 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - The list of programs has been generatedclass by.arabienko.service.impl.GetGuidChannel
+2022-01-04 10:41:40 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - There are no suitable programs for the conditions.
+2022-01-04 10:41:40 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - No data for create program guid.
+2022-01-04 10:41:40 [main] DEBUG by.arabienko.service.impl.GetGuidAfterTime - There are no suitable programs for the conditions.

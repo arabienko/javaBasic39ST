@@ -1,0 +1,68 @@
+[
+  {
+    "bankName": "Belarusbank",
+    "credits": [
+      {
+        "name": "Consumer",
+        "purposeLoan": "purchase of products",
+        "rate": 23.5,
+        "term": 5,
+        "borrower": "On a universal basis",
+        "amount": 5800
+      },
+      {
+        "name": "Lady",
+        "purposeLoan": "purchase of products",
+        "rate": 22.5,
+        "term": 3,
+        "borrower": "Lady Club",
+        "amount": 5000
+      },
+      {
+        "name": "Optimal partner",
+        "purposeLoan": "purchase of products",
+        "rate": 18.0,
+        "term": 3,
+        "borrower": "On a universal basis",
+        "amount": 5800
+      },
+      {
+        "name": "Young specialist",
+        "purposeLoan": "purchase of products",
+        "rate": 25.0,
+        "term": 5,
+        "borrower": "young specialist",
+        "amount": 4252
+      }
+    ]
+  },
+  {
+    "bankName": "BPS-BANK",
+    "credits": [
+      {
+        "name": "Consumer ALL",
+        "purposeLoan": "purchase of products",
+        "rate": 22.0,
+        "term": 5,
+        "borrower": "On a universal basis",
+        "amount": 5800
+      },
+      {
+        "name": "Lady Gold",
+        "purposeLoan": "purchase of products",
+        "rate": 23.5,
+        "term": 3,
+        "borrower": "Lady Club",
+        "amount": 5000
+      },
+      {
+        "name": "Optimal",
+        "purposeLoan": "purchase of products",
+        "rate": 20.0,
+        "term": 3,
+        "borrower": "On a universal basis",
+        "amount": 5800
+      }
+    ]
+  }
+]

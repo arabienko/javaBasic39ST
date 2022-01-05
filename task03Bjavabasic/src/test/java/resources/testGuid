@@ -1,0 +1,13 @@
+[
+  {
+    "nameChannel": "NATURE",
+    "country": "England",
+    "dayOfWeek": "MONDAY",
+    "program": [
+      {
+        "time": "8:15",
+        "nameProgram": "Wild animals."
+      }
+    ]
+  }
+]

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+    <Properties>
+        <property name="pattern_file">%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{5} - %msg%n
+        </property>
+        <property name="pattern_short">%d{HH:mm:ss} %-5level %logger{5} - %msg%n
+        </property>
+    </Properties>
+
+    <Appenders>
+
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${pattern_short}"/>
+        </Console>
+
+        <File name="LogFile" fileName="logs/app.log" bufferedIO="true">
+            <PatternLayout pattern="${pattern_file}"/>
+        </File>
+    </Appenders>
+
+    <Loggers>
+
+
+        <Logger name="by.arabienko.task02javabasic.view.Client" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.task02javabasic.service.impl.CreateMassiveImpl" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.task02javabasic.service.impl.CreateMatrixImpl" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.task02javabasic.service.impl.ExchangeSortMassiveImpl" level="debug"
+                additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.task02javabasic.service.impl.FileSortImpl" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.task02javabasic.service.impl.InsertionSortMassiveImpl" level="debug"
+                additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.task02javabasic.service.impl.MatrixMultiplyImpl" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.task02javabasic.service.impl.MatrixSubtractionImpl" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.task02javabasic.service.impl.MatrixSumImpl" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.task02javabasic.service.impl.MergeSortMassiveImpl" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.task02javabasic.service.impl.ReadFileImpl" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.task02javabasic.service.impl.SaveMassiveToFileImpl" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.task02javabasic.service.impl.SaveMatrixToFileImpl" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.task02javabasic.service.impl.ShakerSortMassiveImpl" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.task02javabasic.service.impl.ShellSortMassiveImpl" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.task02javabasic.service.impl.SimpleSelectSortMassiveImpl" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.task02javabasic.controller.CommandProvider" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+
+
+        <Logger name="Console" level="info">
+            <AppenderRef ref="Console"/>
+        </Logger>
+
+        <Root level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+        </Root>
+
+    </Loggers>
+</Configuration>
