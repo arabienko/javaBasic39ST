@@ -18,6 +18,7 @@ import static org.junit.jupiter.params.provider.Arguments.arguments;
 class ReadFileTest {
     ReadFile readFile = new ReadFile();
 
+
     static Stream<Arguments> testArgumentsDataProvider() {
         List<ProgramGuide.Program> actualProgram = new ArrayList<>();
         ProgramGuide.Program program = new ProgramGuide().new Program("Wild animals.", "8:15");

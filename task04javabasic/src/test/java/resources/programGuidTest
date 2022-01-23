@@ -1,0 +1,75 @@
+[
+  {
+    "nameChannel": "NATURE",
+    "country": "England",
+    "dayOfWeek": "MONDAY",
+    "program": [
+      {
+        "time": "8:15",
+        "nameProgram": "Wild animals."
+      },
+      {
+        "time": "14:15",
+        "nameProgram": "The beauty of the ocean."
+      },
+      {
+        "time": "16:15",
+        "nameProgram": "Home doctor."
+      },
+      {
+        "time": "20:15",
+        "nameProgram": "Nature is nearby."
+      }
+
+    ]
+  },
+  {
+    "nameChannel": "HISTORY",
+    "country": "Germany",
+    "dayOfWeek": "MONDAY",
+    "program": [
+      {
+        "time": "7:00",
+        "nameProgram": "Europe history"
+      },
+      {
+        "time": "10:00",
+        "nameProgram": "Great wars"
+      },
+      {
+        "time": "16:40",
+        "nameProgram": "Things history"
+      },
+      {
+        "time": "22:00",
+        "nameProgram": "Mark on history"
+      }
+
+    ]
+  },
+  {
+    "nameChannel": "COOKING",
+    "country": "Belarus",
+    "dayOfWeek": "MONDAY",
+    "program": [
+      {
+        "time": "7:00",
+        "nameProgram": "Let's have breakfast together. "
+      },
+      {
+        "time": "10:30",
+        "nameProgram": "Favorite food."
+      },
+      {
+        "time": "14:40",
+        "nameProgram": "World cuisine."
+      },
+      {
+        "time": "22:00",
+        "nameProgram": "Everything for cooking."
+      }
+
+    ]
+  }
+]
+

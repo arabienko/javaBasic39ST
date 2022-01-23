@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+    <Properties>
+        <property name="pattern_file">%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{5} - %msg%n
+        </property>
+        <property name="pattern_short">%d{HH:mm:ss} %-5level %logger{5} - %msg%n
+        </property>
+    </Properties>
+
+    <Appenders>
+
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${pattern_short}"/>
+        </Console>
+
+        <File name="LogFile" fileName="logs/app.log" bufferedIO="true">
+            <PatternLayout pattern="${pattern_file}"/>
+        </File>
+    </Appenders>
+
+    <Loggers>
+
+
+        <Logger name="by.arabienko.service.validation.Validation" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.service.reader.ReadFileJson" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.service.reader.ReadFileTXT" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.service.repository.storage.impl.RepositoryConeShape" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.service.repository.storage.impl.RepositoryRegistrarShape" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.service.methods.RatioVolumesFigureByPlane" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.service.methods.ObjectSpecifiedConeShape" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.service.methods.CountSurfaceArea" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.service.methods.BaseOnPlane" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.service.methods.CountVolume" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.bean.observer.ConeShapeObserver" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.creator.entity.CreatorConeShape" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.service.methods.CountSurfaceArea" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.service.methods.CountVolume" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.service.methods.ObjectSpecifiedConeShape" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.service.methods.RatioVolumesFigureByPlane" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+
+        <Logger name="Console" level="info">
+            <AppenderRef ref="Console"/>
+        </Logger>
+
+        <Root level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+        </Root>
+
+    </Loggers>
+</Configuration>
