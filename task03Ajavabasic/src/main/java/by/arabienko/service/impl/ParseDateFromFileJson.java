@@ -1,7 +1,7 @@
 package by.arabienko.service.impl;
 
 import by.arabienko.entity.impl.Bank;
-import by.arabienko.entity.impl.Credit;
+import by.arabienko.entity.impl.CreditLine;
 import by.arabienko.service.Validation;
 import by.arabienko.service.IWorkWithFileJson;
 import com.google.gson.Gson;
@@ -24,8 +24,8 @@ public class ParseDateFromFileJson implements IWorkWithFileJson {
     /**
      * Logging events.
      */
-    private static final Logger LOGGER = LogManager.getLogger(ParseDateFromFileJson.class);
-
+    private static final Logger LOGGER =
+            LogManager.getLogger(ParseDateFromFileJson.class);
     @Override
     public List workWithFile(List list) throws IOException {
         String file = (String) list.get(0);
@@ -40,16 +40,22 @@ public class ParseDateFromFileJson implements IWorkWithFileJson {
         //Parsing data from a file to a Bank object
         Type listType = new TypeToken<List<Bank>>() {
         }.getType();
-        List<Credit> listObjects = gson.fromJson(loadFileFromClasspath(file), listType);
-        LOGGER.debug("File was parsed " + file);
+        List<CreditLine> listObjects =
+                gson.fromJson(loadFileFromClasspath(file),
+                        listType);
+        LOGGER.debug("File was parsed "
+                + file);
 
         return listObjects;
     }
-
-    private static String loadFileFromClasspath(String fileName) throws IOException {
-        ClassLoader classLoader = ParseDateFromFileJson.class.getClassLoader();
-        try (InputStream inputStream = classLoader.getResourceAsStream(fileName)) {
-            return IOUtils.toString(inputStream, StandardCharsets.UTF_8);
+    private static String loadFileFromClasspath(String fileName)
+            throws IOException {
+        ClassLoader classLoader =
+                ParseDateFromFileJson.class.getClassLoader();
+        try (InputStream inputStream =
+                     classLoader.getResourceAsStream(fileName)) {
+            return IOUtils.toString(inputStream,
+                    StandardCharsets.UTF_8);
         }
     }
 }

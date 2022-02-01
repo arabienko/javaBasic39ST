@@ -1,15 +1,1 @@
-[
-  {
-    "bankName": "Belarusbank",
-    "credits": [
-      {
-        "name": "Lady",
-        "purposeLoan": "purchase of products",
-        "rate": 22.5,
-        "term": 3,
-        "borrower": "Lady Club",
-        "amount": 5000
-      }
-    ]
-  }
-]
+[{"bankName":"Belarusbank","credits":[{"name":"Lady","purposeLoan":"purchase of products","rate":22.5,"term":3,"borrower":"Lady Club","amount":2000}]}]

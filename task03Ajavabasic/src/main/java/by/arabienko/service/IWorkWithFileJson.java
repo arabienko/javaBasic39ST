@@ -8,5 +8,6 @@ import java.util.List;
  */
 public interface IWorkWithFileJson {
 
-    List workWithFile(List list) throws IOException, ServiceException;
+    List workWithFile(List list)
+            throws IOException, ServiceException;
 }

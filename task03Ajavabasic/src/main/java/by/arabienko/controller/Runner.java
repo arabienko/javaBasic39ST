@@ -12,9 +12,11 @@ public class Runner {
     /**
      * Logging events.
      */
-    private static final Logger LOGGER = LogManager.getLogger(Runner.class);
+    private static final Logger LOGGER =
+            LogManager.getLogger(Runner.class);
 
-    public static void main(String[] args) throws IOException, ServiceException {
+    public static void main(String[] args)
+            throws IOException, ServiceException {
 
         LOGGER.info("Start of selection of loan offers.");
         Client.client();

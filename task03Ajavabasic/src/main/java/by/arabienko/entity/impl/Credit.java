@@ -16,8 +16,9 @@ public class Credit implements ICredit {
     private String borrower;
     private int amount;
 
-    public Credit(String name, String purposeLoan, double rate,
-                  int term, String borrower, int amount) {
+    public Credit(String name, String purposeLoan,
+                  double rate, int term,
+                  String borrower, int amount) {
         this.name = name;
         this.purposeLoan = purposeLoan;
         this.rate = rate;
@@ -44,11 +45,20 @@ public class Credit implements ICredit {
     public void setAmount(int amount) {
         this.amount = amount;
     }
+
+    public double getRate() {
+        return rate;
+    }
+
+    public int getTerm() {
+        return term;
+    }
     @Override
     public String toString() {
         return "Credit{ " +
                 "name= " + name + '\'' +
-                ", purpose ='" + purposeLoan + '\'' +
+                ", purpose ='" + purposeLoan
+                + '\'' +
                 ", rate= " + rate +
                 ", borrower= " + borrower +
                 ", term= " + term +
@@ -61,11 +71,12 @@ public class Credit implements ICredit {
         if (this==o) return true;
         if (o==null || getClass()!=o.getClass()) return false;
         Credit credit = (Credit) o;
-        return Double.compare(credit.rate, rate)==0 &&
-                term==credit.term && amount==credit.amount &&
-                Objects.equals(name, credit.name) &&
-                Objects.equals(purposeLoan, credit.purposeLoan) &&
-                Objects.equals(borrower, credit.borrower);
+        return Double.compare(credit.rate, rate)==0
+                && term==credit.term
+                && amount==credit.amount
+                && Objects.equals(name, credit.name)
+                && Objects.equals(purposeLoan, credit.purposeLoan)
+                && Objects.equals(borrower, credit.borrower);
     }
 
     @Override

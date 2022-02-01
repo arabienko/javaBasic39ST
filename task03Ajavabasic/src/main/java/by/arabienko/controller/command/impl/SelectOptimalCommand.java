@@ -12,10 +12,14 @@ import java.util.List;
  */
 public class SelectOptimalCommand implements Command {
     @Override
-    public List execute(List list) throws ServiceException {
+    public List execute(List list)
+            throws ServiceException {
         ISelectCredit selectCreditInterface =
                 new SelectCreditOptimal();
-        return selectCreditInterface.selectCredit((List) list.get(0),
-                (String) list.get(1), (Integer) list.get(2), (int) list.get(3));
+        return selectCreditInterface.selectCredit(
+                (List) list.get(0),
+                (String) list.get(1),
+                (Integer) list.get(2),
+                (int) list.get(3));
     }
 }

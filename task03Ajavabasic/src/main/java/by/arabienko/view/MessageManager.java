@@ -7,9 +7,12 @@ import java.util.ResourceBundle;
  * Enum class, Localization
  */
 public enum MessageManager {
-    EN(ResourceBundle.getBundle("property.text", new Locale("en", "US"))),
-    BY(ResourceBundle.getBundle("property.text", new Locale("be", "BY"))),
-    RU(ResourceBundle.getBundle("property.text", new Locale("ru", "RU")));
+    EN(ResourceBundle.getBundle("property.text",
+            new Locale("en", "US"))),
+    BY(ResourceBundle.getBundle("property.text",
+            new Locale("be", "BY"))),
+    RU(ResourceBundle.getBundle("property.text",
+            new Locale("ru", "RU")));
 
     private ResourceBundle bundle;
     MessageManager(ResourceBundle bundle) {

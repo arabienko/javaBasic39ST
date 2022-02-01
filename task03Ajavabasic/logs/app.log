@@ -373,3 +373,18 @@
 2022-01-04 10:03:07 [main] DEBUG by.arabienko.service.impl.ParseDateFromFileJson - File was parsed testDateParse
 2022-01-04 10:03:29 [main] DEBUG by.arabienko.service.impl.ParseDateFromFileJson - File was parsed fileTest
 2022-01-04 10:04:18 [main] DEBUG by.arabienko.service.impl.ParseDateFromFileJson - File was parsed fileTest
+2022-01-28 19:02:49 [main] INFO  by.arabienko.controller.Runner - Start of selection of loan offers.
+2022-01-28 19:03:01 [main] DEBUG by.arabienko.service.impl.ParseDateFromFileJson - File was parsed dataCredits
+2022-01-28 19:03:01 [main] DEBUG by.arabienko.service.impl.SelectCreditsForOffer - Offers have been generated.
+2022-01-28 19:03:01 [main] DEBUG by.arabienko.service.impl.WriteDateToFileJson - Writing was created.
+2022-01-28 19:03:01 [main] DEBUG by.arabienko.service.impl.SelectCreditOptimal - Optimal offer have been generated.
+2022-01-28 19:03:01 [main] DEBUG by.arabienko.service.impl.WriteDateToFileJson - Writing was created.
+2022-01-28 19:03:01 [main] INFO  by.arabienko.controller.Runner - End of choice.
+2022-01-28 19:04:19 [main] DEBUG by.arabienko.service.impl.ParseDateFromFileJson - File was parsed fileTest
+2022-01-28 22:36:48 [main] INFO  by.arabienko.controller.Runner - Start of selection of loan offers.
+2022-01-28 22:36:57 [main] DEBUG by.arabienko.service.impl.ParseDateFromFileJson - File was parsed dataCredits
+2022-01-28 22:36:57 [main] DEBUG by.arabienko.service.impl.SelectCreditsForOffer - Offers have been generated.
+2022-01-28 22:36:57 [main] DEBUG by.arabienko.service.impl.WriteDateToFileJson - Writing was created.
+2022-01-28 22:36:57 [main] DEBUG by.arabienko.service.impl.SelectCreditOptimal - Optimal offer have been generated.
+2022-01-28 22:36:57 [main] DEBUG by.arabienko.service.impl.WriteDateToFileJson - Writing was created.
+2022-01-28 22:36:57 [main] INFO  by.arabienko.controller.Runner - End of choice.

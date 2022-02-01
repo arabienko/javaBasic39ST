@@ -19,41 +19,54 @@ public class SelectCreditsForOffer implements ISelectCredit {
     /**
      * Logging events.
      */
-    private static final Logger LOGGER = LogManager.getLogger(SelectCreditsForOffer.class);
+    private static final Logger LOGGER = LogManager.
+            getLogger(SelectCreditsForOffer.class);
 
     @Override
-    public List selectCredit(List listData, String purpose, int term, int amountLoan) throws ServiceException {
-
+    public List selectCredit(List listData, String purpose,
+                             int term, int amountLoan)
+            throws ServiceException {
         Validation validation = new Validation();
         if (!validation.isNotEmpty(listData)) {
-            throw new ServiceException("No data for select credit");
+            throw new ServiceException(
+                    "No data for select credit");
         }
         List<Bank> listBanks = listData;
-        List newListBankSuggest = new ArrayList<>();
+        List newListBankSuggest =
+                new ArrayList<>();
         if (!validation.isNotEmpty(listData)) {
-            throw new ServiceException("No data banks for select credit");
+            throw new ServiceException(
+                    "No data banks for select credit");
         }
-        if (purpose.equals("purchase of products")) {
+        if (purpose.equals(
+                "purchase of products")) {
             for (Bank bank : listBanks) {
-                List<Credit> creditList = bank.getCredits();
-                List<Credit> listTempCredit = new ArrayList<>();
+                List<Credit> creditList =
+                        bank.getCredits();
+                List<Credit> listTempCredit =
+                        new ArrayList<>();
                 for (Credit credit : creditList) {
-                    if ((purpose.equals(credit.getPurposeLoan())) &&
-                            (amountLoan <= credit.getAmount())) {
+                    if ((purpose.equals(
+                            credit.getPurposeLoan()))
+                            && (amountLoan <= credit.getAmount())) {
                         listTempCredit.add(credit);
                     }
                 }
-                if (validation.isNotEmpty(listTempCredit)) {
+                if (validation.isNotEmpty(
+                        listTempCredit)) {
                     bank.setCredits(listTempCredit);
                     newListBankSuggest.add(bank);
                 }
             }
         } else{
             for (Bank bank : listBanks) {
-                List<Credit> creditList = bank.getCredits();
-                List<Credit> listTempCredit = new ArrayList<>();
+                List<Credit> creditList =
+                        bank.getCredits();
+                List<Credit> listTempCredit =
+                        new ArrayList<>();
                 for (Credit credit : creditList) {
-                    if ((purpose.equals(credit.getPurposeLoan()))) {
+                    if ((purpose.equals(credit.
+                            getPurposeLoan()))) {
                         listTempCredit.add(credit);
                     }
                 }
@@ -64,10 +77,13 @@ public class SelectCreditsForOffer implements ISelectCredit {
             }
         }
         if (!validation.isNotEmpty(newListBankSuggest)) {
-            LOGGER.debug("There is no suitable loan offer.");
-           newListBankSuggest.add("There is no suitable loan offer.");
+            LOGGER.debug(
+                    "There is no suitable loan offer.");
+           newListBankSuggest.add(
+                   "There is no suitable loan offer.");
         } else {
-            LOGGER.debug("Offers have been generated.");
+            LOGGER.debug(
+                    "Offers have been generated.");
         }
         return newListBankSuggest;
     }

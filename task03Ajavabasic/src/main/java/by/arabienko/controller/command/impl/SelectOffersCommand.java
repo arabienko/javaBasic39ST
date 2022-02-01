@@ -13,10 +13,14 @@ import java.util.List;
 public class SelectOffersCommand implements Command {
 
     @Override
-    public List execute(List list) throws ServiceException {
+    public List execute(List list)
+            throws ServiceException {
          ISelectCredit selectCreditInterface =
                  new SelectCreditsForOffer();
-        return selectCreditInterface.selectCredit((List) list.get(0),
-                (String) list.get(1), (int)list.get(2), (Integer) list.get(3));
+        return selectCreditInterface.selectCredit(
+                (List) list.get(0),
+                (String) list.get(1),
+                (int)list.get(2),
+                (Integer) list.get(3));
     }
 }

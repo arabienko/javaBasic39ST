@@ -14,8 +14,10 @@ import java.util.List;
 public class WriteDateCommand implements Command {
 
     @Override
-    public List execute(List list) throws ServiceException, IOException {
-        IWorkWithFileJson workWithFileJson = new WriteDateToFileJson();
+    public List execute(List list)
+            throws ServiceException, IOException {
+        IWorkWithFileJson workWithFileJson =
+                new WriteDateToFileJson();
         return workWithFileJson.workWithFile(list);
 
     }

@@ -19,11 +19,13 @@ public class SelectCreditOptimal implements ISelectCredit {
     /**
      * Logging events.
      */
-    private static final Logger LOGGER = LogManager.getLogger(SelectCreditOptimal.class);
+    private static final Logger LOGGER =
+            LogManager.getLogger(SelectCreditOptimal.class);
 
     @Override
-    public List selectCredit(List listData, String purpose, int selectBorrower, int amount) throws ServiceException {
-
+    public List selectCredit(List listData, String purpose,
+                             int selectBorrower, int amount)
+            throws ServiceException {
         Validation validation = new Validation();
         List newListBankSuggest = new ArrayList();
         String borrower;
@@ -62,7 +64,8 @@ public class SelectCreditOptimal implements ISelectCredit {
                         borrower = "On a universal basis";
                         break;
                     default:
-                        throw new IllegalStateException("Unexpected value: " + selectBorrower);
+                        throw new IllegalStateException("Unexpected value: "
+                                + selectBorrower);
                 }
                 double minMonthPayment = amount;
                 int saveCountBank = 0;
@@ -92,7 +95,8 @@ public class SelectCreditOptimal implements ISelectCredit {
         }
         if (!validation.isNotEmpty(newListBankSuggest)) {
             LOGGER.debug("There is no suitable loan offer.");
-            newListBankSuggest.add("There is no suitable loan offer.");
+            newListBankSuggest.
+                    add("There is no suitable loan offer.");
         } else {
             LOGGER.debug("Optimal offer have been generated.");
         }

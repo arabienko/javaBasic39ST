@@ -11,5 +11,6 @@ import java.util.List;
  */
 public interface Command {
 
-    List execute( List list) throws ServiceException, IOException;
+    List execute( List list)
+            throws ServiceException, IOException;
 }

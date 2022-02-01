@@ -7,6 +7,10 @@ import java.util.List;
  */
 public interface ISelectCredit {
 
-    List selectCredit(List listData, String purpose, int numberInt, int amount) throws ServiceException;
+    List selectCredit(List listData,
+                      String purpose,
+                      int numberInt,
+                      int amount)
+            throws ServiceException;
 
 }

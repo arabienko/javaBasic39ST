@@ -15,11 +15,13 @@ import java.util.List;
 public class ParsFileCommand implements Command {
 
     @Override
-    public List execute(List list) throws ServiceException, IOException {
+    public List execute(List list)
+            throws ServiceException, IOException {
 
         IWorkWithFileJson workWithFileJson =
                 new ParseDateFromFileJson();
 
-       return workWithFileJson.workWithFile(list);
+       return workWithFileJson.
+               workWithFile(list);
     }
 }

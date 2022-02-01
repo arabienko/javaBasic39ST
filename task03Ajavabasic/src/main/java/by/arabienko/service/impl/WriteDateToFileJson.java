@@ -22,43 +22,35 @@ public class WriteDateToFileJson implements IWorkWithFileJson {
     /**
      * Logging events.
      */
-    private static final Logger LOGGER = LogManager.getLogger(WriteDateToFileJson.class);
+    private static final Logger LOGGER =
+            LogManager.getLogger(WriteDateToFileJson.class);
 
     @Override
-    public List workWithFile(List listDate) throws ServiceException {
-        //todo
-
-        Validation validation = new Validation();
-
+    public List workWithFile(List listDate)
+            throws ServiceException {
+        Validation validation =
+                new Validation();
         if (!validation.isNotEmpty(listDate)){
             LOGGER.error("No date for write date to file.");
             throw new ServiceException("No date for write date to file.");
         }
-
         Path path = Paths.get("src/main/resources");
-
         String str = (String) listDate.get(1);
-
         List list = (List) listDate.get(0);
-
-        Path fileToCreatePath = path.resolve(String.valueOf(new File(str)));
+        Path fileToCreatePath =
+                path.resolve(String.valueOf(new File(str)));
         Gson gson = new Gson();
-
-        File fileName = new File(String.valueOf(fileToCreatePath));
-
+        File fileName =
+                new File(String.valueOf(fileToCreatePath));
         // list of Java objects to JSON file
-        try (FileWriter writer = new FileWriter(fileName)) {
-
-
+        try (FileWriter writer =
+                     new FileWriter(fileName)) {
                 gson.toJson(list, writer);
-
             writer.flush();
-
         } catch (IOException e) {
             LOGGER.error("Writing is error. "+e);
             e.printStackTrace();
         }
-
         LOGGER.debug("Writing was created.");
         return listDate;
     }

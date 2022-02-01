@@ -12,26 +12,39 @@ import by.arabienko.controller.command.impl.WriteDateCommand;
  */
 public class ServiceFactory {
 
-    private static final ServiceFactory INSTANCE = new ServiceFactory();
+    private static final ServiceFactory INSTANCE =
+            new ServiceFactory();
 
-    private ServiceFactory() {}
+    private ServiceFactory() {
+    }
 
-    public static ServiceFactory getInstance(){
+    public static ServiceFactory getInstance() {
         return INSTANCE;
     }
 
-    private final Command parseFile = new ParsFileCommand();
-    private final Command writeToFile = new WriteDateCommand();
+    private final Command parseFile =
+            new ParsFileCommand();
+    private final Command writeToFile =
+            new WriteDateCommand();
 
-    public Command getParseFile(){ return parseFile; }
-    public Command getWriteToFile(){return writeToFile;}
+    public Command getParseFile() {
+        return parseFile;
+    }
 
-    private final Command selectOffers = new SelectOffersCommand();
-    private final Command selectOptimal = new SelectOptimalCommand();
+    public Command getWriteToFile() {
+        return writeToFile;
+    }
 
-    public Command getSelectOffers() {return selectOffers; }
+    private final Command selectOffers =
+            new SelectOffersCommand();
+    private final Command selectOptimal =
+            new SelectOptimalCommand();
+
+    public Command getSelectOffers() {
+        return selectOffers;
+    }
+
     public Command getSelectOptimal() {
         return selectOptimal;
     }
-
-    }
+}
