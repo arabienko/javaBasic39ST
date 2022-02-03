@@ -11,15 +11,18 @@
     <Appenders>
 
         <Console name="Console" target="SYSTEM_OUT">
-            <PatternLayout pattern="${pattern_short}"/>
+            <PatternLayout pattern="${pattern_file}"/>
         </Console>
 
         <File name="LogFile" fileName="logs/logThread.log" bufferedIO="true">
-            <PatternLayout pattern="${pattern_file}"/>
+            <PatternLayout pattern="${pattern_short}"/>
         </File>
     </Appenders>
 
     <Loggers>
+        <Logger name="by.arabienko.task05thread.controller.RunnerCommand" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
         <Logger name="by.arabienko.task05thread.service.threadImpl.CommonResourceReadFromFile" level="debug" additivity="false">
             <AppenderRef ref="LogFile"/>
         </Logger>

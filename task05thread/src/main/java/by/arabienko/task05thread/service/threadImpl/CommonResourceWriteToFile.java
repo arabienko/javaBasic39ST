@@ -16,6 +16,14 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * The class for writing a matrix
+ * or array to a text file.
+ * The recording process is
+ * implemented in
+ * a separate thread
+ * using Semaphore.
+ */
 public class CommonResourceWriteToFile implements Runnable, Closeable, IThread {
     private static final Logger LOGGER =
             LogManager.getLogger(CommonResourceWriteToFile.class);
@@ -29,7 +37,8 @@ public class CommonResourceWriteToFile implements Runnable, Closeable, IThread {
                                      Semaphore semaphore,
                                      List list, String name)
             throws IOException {
-        Path path = Paths.get("src/main/resources/massive");
+        Path path = Paths.
+                get("src/main/resources/save_package");
         Path fileToCreatePath =
                 path.resolve(file);
         String newFileName =
@@ -85,7 +94,6 @@ public class CommonResourceWriteToFile implements Runnable, Closeable, IThread {
                     }
                     stringBuilder.append("\n");
                 }
-                stringBuilder.append("\n");
                 stringBuilder.append("\n");
                 fileWriter.write(String.valueOf(stringBuilder));
                 fileWriter.close();

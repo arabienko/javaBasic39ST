@@ -11,6 +11,16 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.Phaser;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * Class for sorting an array.
+ * Merge sort. Divide the array into parts
+ * until it is equal to one element.
+ * Each element of the array is sorted.
+ * Merging: we compare one element from the arrays
+ * and write the smaller one into a new array,
+ * take the next element from the array
+ * and compare with the previous large one.
+ */
 public class SortMergeArray implements Callable<Massive>, IThread {
     private static final Logger LOGGER =
             LogManager.getLogger(SortMergeArray.class);
@@ -18,6 +28,7 @@ public class SortMergeArray implements Callable<Massive>, IThread {
     private String nameThread;
     private Massive massive;
     private ReentrantLock lock;
+    Phaser phaser;
 
     public SortMergeArray(Massive massive,
                           ReentrantLock lock,
@@ -25,6 +36,7 @@ public class SortMergeArray implements Callable<Massive>, IThread {
         this.nameThread = nameThread;
         this.massive = massive;
         this.lock = lock;
+        phaser = new Phaser();
     }
 
     @Override
@@ -34,81 +46,87 @@ public class SortMergeArray implements Callable<Massive>, IThread {
 
     @Override
     public Massive call() throws Exception {
+        LOGGER.debug("Start mergeSort- "
+                + getNameThread());
+        lock.lock();
+        Massive resultMassive;
         Validation validation = new Validation();
-
-        //massive for changing.
-        Number[] tmp;
-        //Massive for sorting.
-        Number[] array = massive.getMassive();
-        //Copy array.
-        Number[] currentArray = array;
-        //Array with the same size.
-        Number[] currentTempArray = new Number[massive.getMassive().length];
-        Phaser phaser = new Phaser();
         if (validation.checkIsEmptyMassive(massive)) {
-            int size = 1;
-            while (size < array.length) {
-                for (int i = 0; i < array.length; i += 2 * size) {
-                    int indStartFirst = i;
-                    int indStartSecond = i + size;
-                    int finalSize = size;
-                    Number[] arrayFirst = currentArray;
-                    Number[] arraySecond = currentArray;
-                    Number[] destArray = currentTempArray;
-                    int destIndStart = i;
-                    new Thread(() -> {
-                        SortMergeArray sortMergeArray = null;
-                        LOGGER.debug("start merge "+Thread.currentThread());
-                        Phaser phaser1 = phaser;
-                        phaser1.register();
-                        int indexStartFirst = indStartFirst;
-                        int indexStartSecond = indStartSecond;
-
-                        //Calculate the end index of the subarray.
-                        int srcEndFirst = Math.min(indStartFirst + finalSize, arrayFirst.length);
-                        int srcEndSecond = Math.min(indStartSecond + finalSize, arraySecond.length);
-
-                        if (indStartFirst + finalSize > arrayFirst.length) {
-                            for (int j = indStartFirst; j < srcEndFirst; j++) {
-                                sortMergeArray.massive.getMassive()[j] = arrayFirst[j];
-                            }
-                            return;
-                        }
-                        //The number of loop iterations.
-                        int iterationCount = srcEndFirst - indStartFirst + srcEndSecond - indStartSecond;
-
-                        //Loop merging two arrays, comparing their elements and adding them to the resulting array.
-                        for (int j = destIndStart; j < destIndStart + iterationCount; j++) {
-                            if (indexStartFirst < srcEndFirst && (indexStartSecond >= srcEndSecond ||
-                                    arrayFirst[indexStartFirst].doubleValue() <
-                                            arraySecond[indexStartSecond].doubleValue())) {
-
-                                sortMergeArray.massive.getMassive()[j] = arrayFirst[indexStartFirst];
-                                indexStartFirst++;
-
-                            } else {
-
-                                destArray[j] = arraySecond[indexStartSecond];
-                                indexStartSecond++;
-                            }
-                        }
-                        phaser1.arriveAndAwaitAdvance();
-                    }).start();
-                    // merge(currentArray, i, currentArray, i + size, currentTempArray, i, size);
-                }
-                tmp = currentArray;
-                currentArray = currentTempArray;
-                currentTempArray = tmp;
-
-                size = size * 2;
-
-            }
-            massive.setMassive(currentArray);
+            Number[] result = mergeSort(massive.getMassive());
+            resultMassive = new Massive(result);
         } else {
-            LOGGER.debug("You cannot sort by merge.");
-            throw new ServiceException("Operation on massive is not possible!");
+            LOGGER.debug(
+                    "Operation on massive is not possible!");
+            throw new ServiceException(
+                    "Operation on massive is not possible!");
         }
-        phaser.arriveAndDeregister();
-        return massive;
+        LOGGER.debug("Method merge sort is completed. " +
+                "Array: " + resultMassive);
+        lock.unlock();
+        return resultMassive;
+    }
+
+    private Number[] mergeSort(Number[] forSort) {
+        Number[] left = new Number[forSort.length / 2];
+        Number[] right =
+                new Number[forSort.length - left.length];
+        int center;
+        if (forSort.length==1) {
+            return forSort;
+        } else {
+            center = forSort.length / 2;
+            // copy the left half of whole into the left.
+            for (int i = 0; i < center; i++) {
+                left[i] = forSort[i];
+            }
+            //copy the right half of whole into the new arraylist.
+            int k = 0;
+            for (int i = center; i < forSort.length; i++) {
+                right[k] = forSort[i];
+                k++;
+            }
+            // Sort the left and right halves of the arraylist.
+            left = mergeSort(left);
+            right = mergeSort(right);
+            // Merge the results back together.
+            merge(left, right, forSort);
+        }
+        return forSort;
+    }
+
+    private static void merge(Number[] left, Number[] right, Number[] forSort) {
+        int leftIndex = 0;
+        int rightIndex = 0;
+        int wholeIndex = 0;
+        // As long as neither the left nor the right ArrayList has
+        // been used up, keep taking the smaller of left.get(leftIndex)
+        // or right.get(rightIndex) and adding it at both.get(bothIndex).
+        while (leftIndex < left.length && rightIndex < right.length) {
+            if (left[leftIndex].doubleValue()
+                    < (right[rightIndex]).doubleValue()) {
+                forSort[wholeIndex] = left[leftIndex];
+                leftIndex++;
+            } else {
+                forSort[wholeIndex] = right[rightIndex];
+                rightIndex++;
+            }
+            wholeIndex++;
+        }
+        Number[] rest;
+        int restIndex;
+        if (leftIndex >= left.length) {
+            // The left ArrayList has been use up...
+            rest = right;
+            restIndex = rightIndex;
+        } else {
+            // The right ArrayList has been used up...
+            rest = left;
+            restIndex = leftIndex;
+        }
+        // Copy the rest of whichever ArrayList (left or right) was not used up.
+        for (int i = restIndex; i < rest.length; i++) {
+            forSort[wholeIndex] = rest[i];
+            wholeIndex++;
+        }
     }
 }

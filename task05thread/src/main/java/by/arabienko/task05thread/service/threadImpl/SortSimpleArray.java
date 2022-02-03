@@ -10,6 +10,15 @@ import org.apache.logging.log4j.Logger;
 import java.util.concurrent.Callable;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * Class for sorting an array.
+ * Simple choice method. The element
+ * with the minimum value is selected
+ * and exchanged with the first element.
+ * Then, from the remaining n-1 elements,
+ * the minimum is selected and exchanged
+ * with the second, etc.
+ */
 public class SortSimpleArray implements Callable<Massive>, IThread {
     private static final Logger LOGGER =
             LogManager.getLogger(SortSimpleArray.class);

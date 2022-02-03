@@ -10,6 +10,13 @@ import org.apache.logging.log4j.Logger;
 import java.util.concurrent.Callable;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * Class for sorting an array.
+ * Shaker sorting. Process the array
+ * from left to right, moving the larger element
+ * to the end of the array, and then from right
+ * to left, the smaller element to the beginning of the array.
+ */
 public class SortShakerArray implements Callable<Massive>, IThread {
     private static final Logger LOGGER =
             LogManager.getLogger(SortShakerArray.class);

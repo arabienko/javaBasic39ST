@@ -10,6 +10,16 @@ import org.apache.logging.log4j.Logger;
 import java.util.concurrent.Callable;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * Class for sorting an array.
+ * Shell sort. Elements that are
+ * spaced apart from each other
+ * at a certain STEP distance are sorted.
+ * Then the sorting is repeated at lower
+ * values of STEP (step / 2) and at the end
+ * the sorting process ends with STEP = 1
+ * (ordinary sorting by insertions).
+ */
 public class SortShellArray implements Callable<Massive>, IThread {
     private static final Logger LOGGER =
             LogManager.getLogger(SortShellArray.class);

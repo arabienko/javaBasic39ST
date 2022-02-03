@@ -33,13 +33,14 @@ public class Runner {
         CountDownLatch latch = new CountDownLatch(2);
         List list = new ArrayList();
         list.add("date3");
-        for (int i = 0; i < 3; i++){
+        long startTime = System.currentTimeMillis();
+        for (int i = 0; i < 5; i++){
             Future<List> listFuture1 = ex.submit(new CommonResourceReadFromFile(lock, "date3"));
             TimeUnit.MILLISECONDS.sleep(100);
             Future<Massive> future1 = ex.submit(
                     new CreateArrayInStreams(listFuture1.get(),lock,
                             "THREAD_CREATE_MATRIX-" + i));
-            Future<Massive> result = ex.submit(new SortMergeArray(future1.get()
+            Future<Massive> result = ex.submit(new SortInsertionArray(future1.get()
                     , lock,"SubtractThread-" + i));
             List list1 = new ArrayList();
             list1.add(result.get());
@@ -55,6 +56,8 @@ public class Runner {
                 e.printStackTrace();
             }
         }
+        long endTime = System.currentTimeMillis();
+        System.out.println("Total execution time: " + (endTime-startTime) + "ms");
        /* for (int i = 0; i < 3; i++) {
             Future<List> listFuture1 = ex.submit(new CommonResourceReadFromFile(lock, "date1"));
             Future<List> listFuture2 = ex.submit(new CommonResourceReadFromFile(lock, "date2"));

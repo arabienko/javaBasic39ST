@@ -75,7 +75,7 @@ public class SortingMassiveTest {
 
         Massive massive1 =
                 new Massive(argResult);
-        sortingMassive.simpleSelectSortMassive(massive);
+        sortingMassive.insertionSortMassive(massive);
         assertEquals(massive, massive1);
     }
 

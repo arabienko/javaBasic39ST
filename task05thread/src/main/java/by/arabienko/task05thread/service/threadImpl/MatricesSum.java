@@ -11,8 +11,14 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * The class of finding
+ * the sum of two matrices.
+ * ReentrantLock.
+ */
 public class MatricesSum implements Callable<Matrix>, IThread {
-    private static final Logger LOGGER = LogManager.getLogger(MatricesSum.class);
+    private static final Logger LOGGER
+            = LogManager.getLogger(MatricesSum.class);
     private Matrix matrixFirst;
     private Matrix matrixSecond;
     private String nameThread;

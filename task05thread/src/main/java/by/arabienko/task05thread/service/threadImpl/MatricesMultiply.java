@@ -12,6 +12,14 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * Matrix multiplication class.
+ * The result of which is a new matrix.
+ * Matrix multiplication occurs
+ * after a latch is fired,
+ * when two matrices have been
+ * read and created.
+ */
 public class MatricesMultiply implements Callable<Matrix>, IThread {
     private static final Logger LOGGER =
             LogManager.getLogger(MatricesMultiply.class);

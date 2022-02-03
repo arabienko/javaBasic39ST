@@ -7,8 +7,16 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.List;
 import java.util.concurrent.Callable;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * A class for creating
+ * an Array in a stream
+ * from a string stored
+ * in a list.
+ * Implemented with ReentrantLock.
+ */
 public class CreateArrayInStreams implements Callable<Massive>, IThread {
     private static final Logger LOGGER =
             LogManager.getLogger(CreateArrayInStreams.class);
@@ -43,7 +51,7 @@ public class CreateArrayInStreams implements Callable<Massive>, IThread {
             numb[j] = Integer.parseInt(word[j]);
         }
         Massive resultArray = new Massive(numb);
-        //TimeUnit.MILLISECONDS.sleep(100);
+        TimeUnit.MILLISECONDS.sleep(100);
         lock.unlock();
         LOGGER.debug("thread "
                 + this.nameThread

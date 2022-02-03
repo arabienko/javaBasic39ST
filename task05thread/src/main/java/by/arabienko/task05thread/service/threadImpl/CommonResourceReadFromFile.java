@@ -10,6 +10,14 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * Implemented a class
+ * for reading a text file line
+ * by line in a stream.
+ * The result is stored line
+ * by line in the List.
+ * Implemented with ReentrantLock.
+ */
 public class CommonResourceReadFromFile implements Callable<List>, IThread {
     private InputStream inputStream;
     private ReentrantLock locker;
@@ -50,5 +58,4 @@ public class CommonResourceReadFromFile implements Callable<List>, IThread {
         }
         return listString;
     }
-
 }

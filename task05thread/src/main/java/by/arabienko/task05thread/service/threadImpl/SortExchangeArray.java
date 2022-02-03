@@ -10,6 +10,13 @@ import org.apache.logging.log4j.Logger;
 import java.util.concurrent.Callable;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * Class for sorting an array.
+ * The exchange sort is similar to its cousin, the bubble sort.
+ * Bubble method. Sequential comparison and exchange
+ * of adjacent elements, if the previous one is larger
+ * than the next one (light elements slowly emerge).
+ */
 public class SortExchangeArray implements Callable<Massive>, IThread {
     private static final Logger LOGGER =
             LogManager.getLogger(SortExchangeArray.class);

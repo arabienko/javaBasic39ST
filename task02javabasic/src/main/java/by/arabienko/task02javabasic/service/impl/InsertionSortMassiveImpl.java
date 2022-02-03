@@ -34,10 +34,10 @@ public class InsertionSortMassiveImpl implements SortMassiveService {
                 double current = massive.getMassive()[i].doubleValue();
                 int j = i - 1;
                 while (j >= 0 && current < massive.getMassive()[j].doubleValue()) {
-                    massive.getMassive()[j + 1] = massive.getMassive()[j];
+                    massive.setElement(j + 1,massive.getMassive()[j]);
                     j--;
                 }
-                massive.getMassive()[j + 1] = current;
+                massive.setElement(j + 1,current);
             }
         } else {
             LOGGER.debug("Operation on massive is not possible!");

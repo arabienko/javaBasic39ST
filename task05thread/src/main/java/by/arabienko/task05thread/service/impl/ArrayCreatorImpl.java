@@ -2,7 +2,6 @@ package by.arabienko.task05thread.service.impl;
 
 import by.arabienko.task05thread.bean.impl.Massive;
 import by.arabienko.task05thread.bean.impl.Matrix;
-import by.arabienko.task05thread.view.Client;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -16,7 +15,7 @@ public class ArrayCreatorImpl<T extends Number> {
     /**
      * Logging events.
      */
-    private static final Logger LOGGER = LogManager.getLogger(Client.class);
+    private static final Logger LOGGER = LogManager.getLogger(ArrayCreatorImpl.class);
 
 
     /**

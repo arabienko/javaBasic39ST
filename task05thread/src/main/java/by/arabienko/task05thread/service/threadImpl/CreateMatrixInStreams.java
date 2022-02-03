@@ -10,6 +10,16 @@ import java.util.concurrent.*;
 
 import static java.lang.Integer.parseInt;
 
+/**
+ * A class for creating
+ * a Matrix in a stream
+ * from strings stored
+ * in a List.
+ * Row and column numbers
+ * are stored in separate collections.
+ * The matrix is filled in by numbers
+ * from the collections CopyOnWriteArrayList.
+ */
 public class CreateMatrixInStreams implements Callable<Matrix>, IThread {
     private static final Logger LOGGER =
             LogManager.getLogger(CreateMatrixInStreams.class);
@@ -28,6 +38,7 @@ public class CreateMatrixInStreams implements Callable<Matrix>, IThread {
         this.list = list;
         this.nameThread = nameThread;
         this.downLatch = latch;
+        //filling collections with numbers of columns and rows for a matrix.
         for (int i = 0; i < list.size(); i++) {
             rowsStore.add(i);
         }

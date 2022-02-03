@@ -12,6 +12,19 @@ import java.util.List;
 import java.util.concurrent.*;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * A class for finding the subtraction
+ * of one matrix from another.
+ * The result is a new matrix.
+ * Row subtraction is performed
+ * in separate threads with a cyclic barrier
+ * equal to the number of matrix rows.
+ * When approaching the barrier
+ * of all executed string subtraction
+ * threads, the program proceeds further:
+ * the new matrix is filled
+ * with strings from the threads.
+ */
 public class MatricesSubstraction implements Callable<Matrix>, IThread {
     private static final Logger LOGGER =
             LogManager.getLogger(MatricesSubstraction.class);
@@ -30,7 +43,8 @@ public class MatricesSubstraction implements Callable<Matrix>, IThread {
         this.matrixSecond = matrixSecond;
         this.nameThread = nameThread;
         this.lock = l;
-        this.cyclicBarrier = new CyclicBarrier(matrixFirst.getNumberRows());
+        this.cyclicBarrier =
+                new CyclicBarrier(matrixFirst.getNumberRows());
     }
 
     @Override
@@ -46,16 +60,18 @@ public class MatricesSubstraction implements Callable<Matrix>, IThread {
         Number[][] newNum;
         LOGGER.debug("thread "
                 + this.getNameThread() + " started substraction...");
-
         if (validation.checkEqualsRowsColumnsMatrices
                 (matrixFirst, matrixSecond) &
                 validation.checkIsEmptyMatrix(matrixFirst) &
                 validation.checkIsEmptyMatrix(matrixSecond)) {
-            newNum = new Number[matrixFirst.getNumberRows()][];
-            ExecutorService ex = Executors.newFixedThreadPool(10);
+            newNum =
+                    new Number[matrixFirst.getNumberRows()][];
+            ExecutorService ex =
+                    Executors.newFixedThreadPool(10);
             List<Future<Number[]>> futureList = new ArrayList<>();
             for (int i = 0; i < matrixFirst.getNumberRows(); i++) {
-                futureList.add(ex.submit(new SubstractionRows(matrixFirst.getMatrix()[i],
+                futureList.add(ex.submit(
+                        new SubstractionRows(matrixFirst.getMatrix()[i],
                         matrixSecond.getMatrix()[i], cyclicBarrier)));
             }
             for (int i = 0; i < futureList.size(); i++) {

@@ -10,6 +10,15 @@ import org.apache.logging.log4j.Logger;
 import java.util.concurrent.Callable;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * Class for sorting an array.
+ * Simple insertion method.
+ * At each step of the algorithm we take
+ * one of the array elements (starting from the first),
+ * find the position for insertion from
+ * the left part of the array and insert it.
+ * An array of one element is considered sorted.
+ */
 public class SortInsertionArray implements Callable<Massive>, IThread {
     private static final Logger LOGGER =
             LogManager.getLogger(SortInsertionArray.class);
@@ -37,18 +46,17 @@ public class SortInsertionArray implements Callable<Massive>, IThread {
         lock.lock();
         Validation validation = new Validation();
         if (validation.checkIsEmptyMassive(massive)) {
-            for (int i = 1; i
+            for (int i =1; i
                     < massive.getMassive().length; i++) {
                 double current =
                         massive.getMassive()[i].doubleValue();
                 int j = i - 1;
                 while (j >= 0 && current
                         < massive.getMassive()[j].doubleValue()) {
-                    massive.getMassive()[j + 1]
-                            = massive.getMassive()[j];
+                    massive.setElement(j + 1,massive.getMassive()[j]);
                     j--;
                 }
-                massive.getMassive()[j + 1] = current;
+                massive.setElement(j + 1,current);
             }
         } else {
             LOGGER.debug(
