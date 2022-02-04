@@ -16,7 +16,6 @@ public class CommandExchangeArray implements CommandThread {
         ExecutorService ex = Executors.newCachedThreadPool();
         ReentrantLock lock = new ReentrantLock();
         Semaphore semaphore = new Semaphore(1);
-        CountDownLatch latch = new CountDownLatch(2);
         try {
             Future<List> listFuture1 =
                     ex.submit(new CommonResourceReadFromFile(lock, "date3"));

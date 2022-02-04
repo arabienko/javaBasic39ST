@@ -34,8 +34,10 @@ public class MatricesSubstraction implements Callable<Matrix>, IThread {
     private String nameThread;
     private ReentrantLock lock;
     CyclicBarrier cyclicBarrier;
+    private final CopyOnWriteArrayList<Integer> copyRows=
+            new CopyOnWriteArrayList<>();
 
-    public MatricesSubstraction(Matrix matrixFirst,
+      public MatricesSubstraction(Matrix matrixFirst,
                                 Matrix matrixSecond,
                                 ReentrantLock l,
                                 String nameThread) {
@@ -45,6 +47,9 @@ public class MatricesSubstraction implements Callable<Matrix>, IThread {
         this.lock = l;
         this.cyclicBarrier =
                 new CyclicBarrier(matrixFirst.getNumberRows());
+          for (int i = 0; i < matrixFirst.getNumberRows(); i++) {
+              copyRows.add(i);
+          }
     }
 
     @Override
@@ -69,12 +74,12 @@ public class MatricesSubstraction implements Callable<Matrix>, IThread {
             ExecutorService ex =
                     Executors.newFixedThreadPool(10);
             List<Future<Number[]>> futureList = new ArrayList<>();
-            for (int i = 0; i < matrixFirst.getNumberRows(); i++) {
+            for (Integer i : copyRows) {
                 futureList.add(ex.submit(
                         new SubstractionRows(matrixFirst.getMatrix()[i],
                         matrixSecond.getMatrix()[i], cyclicBarrier)));
             }
-            for (int i = 0; i < futureList.size(); i++) {
+            for (Integer i : copyRows) {
                 newNum[i] = futureList.get(i).get();
             }
             ex.shutdown();
@@ -84,7 +89,6 @@ public class MatricesSubstraction implements Callable<Matrix>, IThread {
             throw new ServiceException("Operation on matrices is not possible!");
         }
         TimeUnit.MILLISECONDS.sleep(100);
-
         //lock.unlock();
         LOGGER.debug("thread "
                 + getNameThread() + " finished substraction, " +

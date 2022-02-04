@@ -7,9 +7,9 @@ import by.arabienko.task05thread.service.Validation;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.concurrent.Callable;
-import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.TimeUnit;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.*;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
@@ -51,20 +51,29 @@ public class MatricesMultiply implements Callable<Matrix>, IThread {
         countDown.await();
         lock.lock();
         Matrix newMatrix;
+        Number[][] newNum;
         if (validation.checkEqualsRowsColumnsMatrices
                 (matrixFirst, matrixSecond) &
                 validation.checkIsEmptyMatrix(matrixFirst) &
                 validation.checkIsEmptyMatrix(matrixSecond)) {
-            newMatrix = new Matrix(matrixFirst.getNumberRows(),
-                    matrixFirst.getNumberColumns());
+            newNum =
+                    new Number[matrixFirst.getNumberRows()][];
+            CountDownLatch downLatch =
+                    new CountDownLatch(matrixFirst.getNumberRows());
+            List<Future<Number[]>> futureList = new ArrayList<>();
+            ExecutorService pool =
+                    Executors.newFixedThreadPool(10);
             for (int i = 0; i < matrixFirst.getNumberRows(); i++) {
-                for (int j = 0; j < matrixFirst.getNumberColumns(); j++) {
-                    double value = matrixFirst.getElement(i, j).doubleValue() *
-                            matrixSecond.getElement(i, j).doubleValue();
-                    newMatrix.setElement(i, j, value);
-                }
+                futureList.add(pool.submit(
+                        new MultiplyRows(matrixFirst.getMatrix()[i],
+                                matrixSecond.getMatrix()[i], downLatch)));
             }
-
+            countDown.await();
+            for (int i = 0; i < matrixFirst.getNumberRows(); i++) {
+                newNum[i] = futureList.get(i).get();
+            }
+            pool.shutdown();
+            newMatrix = new Matrix(newNum);
         } else {
             LOGGER.debug("Operation on matrices is not possible!");
             throw new ServiceException("Operation on matrices is not possible!");

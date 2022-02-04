@@ -65,7 +65,12 @@
         <Logger name="by.arabienko.task05thread.service.threadImpl.SortMergeArray" level="debug" additivity="false">
             <AppenderRef ref="LogFile"/>
         </Logger>
-
+        <Logger name="by.arabienko.task05thread.service.threadImpl.SumRows" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <Logger name="by.arabienko.task05thread.service.threadImpl.MultiplyRows" level="debug" additivity="false">
+            <AppenderRef ref="LogFile"/>
+        </Logger>
 
         <Logger name="Console" level="info">
             <AppenderRef ref="Console"/>

@@ -1,659 +1,365 @@
-18:48:56 DEBUG by.arabienko.task05thread.controller.RunnerCommand - Starting to simulate the work of the client side... Start time: февр. 02,2022 18:48:56:001
-18:48:56 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:48:56 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:48:57 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
+12:07:37 DEBUG by.arabienko.task05thread.controller.RunnerCommand - Starting to simulate the work of the client side... Start time: февр. 04,2022 12:07:37:001
+12:07:37 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
+12:07:38 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
+12:07:38 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
 Matrix: 4 x 4
 1 2 3 8 
 1 25 6 6 
 2 5 9 12 
 -1 -2 3 25 
 
-18:48:57 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
+12:07:38 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
 Matrix: 4 x 4
 1 22 3 5 
 1 25 6 18 
 2 5 9 -3 
 2 8 -9 65 
 
-18:48:57 DEBUG arabienko.task05thread.service.threadImpl.MatricesSubstraction - thread SubtractThread- started substraction...
-18:48:57 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - All rows were calculated.Return in main thread to continue calculations. 0
-18:48:57 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - All rows were calculated.Return in main thread to continue calculations. 0
-18:48:57 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - All rows were calculated.Return in main thread to continue calculations. 0
-18:48:57 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - All rows were calculated.Return in main thread to continue calculations. 0
-18:48:57 DEBUG arabienko.task05thread.service.threadImpl.MatricesSubstraction - thread SubtractThread- finished substraction, result Substraction: 
+12:07:38 DEBUG arabienko.task05thread.service.threadImpl.MultiplyRows - Row was calculated. Return in main thread to continue calculations. 
+12:07:38 DEBUG arabienko.task05thread.service.threadImpl.MultiplyRows - Row was calculated. Return in main thread to continue calculations. 
+12:07:38 DEBUG arabienko.task05thread.service.threadImpl.MultiplyRows - Row was calculated. Return in main thread to continue calculations. 
+12:07:38 DEBUG arabienko.task05thread.service.threadImpl.MultiplyRows - Row was calculated. Return in main thread to continue calculations. 
+12:07:38 DEBUG arabienko.task05thread.service.threadImpl.MatricesMultiply - thread MultiplyThread- finished multiply...
+12:07:38 DEBUG arabienko.task05thread.service.threadImpl.MatricesMultiply - thread MultiplyThread- result multiply= 
+Matrix: 4 x 4
+1.0 44.0 9.0 40.0 
+1.0 625.0 36.0 108.0 
+4.0 25.0 81.0 -36.0 
+-2.0 -16.0 -27.0 1625.0 
+
+12:07:38 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
+12:07:38 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
+12:07:38 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
+Matrix: 4 x 4
+1 2 3 8 
+1 25 6 6 
+2 5 9 12 
+-1 -2 3 25 
+
+12:07:38 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
+12:07:38 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
+Matrix: 4 x 4
+1 22 3 5 
+1 25 6 18 
+2 5 9 -3 
+2 8 -9 65 
+
+12:07:38 DEBUG arabienko.task05thread.service.threadImpl.MultiplyRows - Row was calculated. Return in main thread to continue calculations. 
+12:07:38 DEBUG arabienko.task05thread.service.threadImpl.MultiplyRows - Row was calculated. Return in main thread to continue calculations. 
+12:07:38 DEBUG arabienko.task05thread.service.threadImpl.MultiplyRows - Row was calculated. Return in main thread to continue calculations. 
+12:07:38 DEBUG arabienko.task05thread.service.threadImpl.MultiplyRows - Row was calculated. Return in main thread to continue calculations. 
+12:07:38 DEBUG arabienko.task05thread.service.threadImpl.MatricesMultiply - thread MultiplyThread- finished multiply...
+12:07:38 DEBUG arabienko.task05thread.service.threadImpl.MatricesMultiply - thread MultiplyThread- result multiply= 
+Matrix: 4 x 4
+1.0 44.0 9.0 40.0 
+1.0 625.0 36.0 108.0 
+4.0 25.0 81.0 -36.0 
+-2.0 -16.0 -27.0 1625.0 
+
+12:07:38 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
+12:07:39 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
+12:07:39 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
+Matrix: 4 x 4
+1 2 3 8 
+1 25 6 6 
+2 5 9 12 
+-1 -2 3 25 
+
+12:07:39 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
+12:07:39 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
+Matrix: 4 x 4
+1 22 3 5 
+1 25 6 18 
+2 5 9 -3 
+2 8 -9 65 
+
+12:07:39 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- started sum...
+12:07:39 DEBUG arabienko.task05thread.service.threadImpl.SumRows - Row was calculated. Return in main thread to continue calculations. 
+12:07:39 DEBUG arabienko.task05thread.service.threadImpl.SumRows - Row was calculated. Return in main thread to continue calculations. 
+12:07:39 DEBUG arabienko.task05thread.service.threadImpl.SumRows - Row was calculated. Return in main thread to continue calculations. 
+12:07:39 DEBUG arabienko.task05thread.service.threadImpl.SumRows - Row was calculated. Return in main thread to continue calculations. 
+12:07:39 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- finished sum...
+12:07:39 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- result sum= 
+Matrix: 4 x 4
+2.0 24.0 6.0 13.0 
+2.0 50.0 12.0 24.0 
+4.0 10.0 18.0 9.0 
+1.0 6.0 -6.0 90.0 
+
+12:07:39 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
+12:07:39 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
+12:07:39 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
+Matrix: 4 x 4
+1 2 3 8 
+1 25 6 6 
+2 5 9 12 
+-1 -2 3 25 
+
+12:07:39 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
+12:07:39 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
+Matrix: 4 x 4
+1 22 3 5 
+1 25 6 18 
+2 5 9 -3 
+2 8 -9 65 
+
+12:07:39 DEBUG arabienko.task05thread.service.threadImpl.MultiplyRows - Row was calculated. Return in main thread to continue calculations. 
+12:07:39 DEBUG arabienko.task05thread.service.threadImpl.MultiplyRows - Row was calculated. Return in main thread to continue calculations. 
+12:07:39 DEBUG arabienko.task05thread.service.threadImpl.MultiplyRows - Row was calculated. Return in main thread to continue calculations. 
+12:07:39 DEBUG arabienko.task05thread.service.threadImpl.MultiplyRows - Row was calculated. Return in main thread to continue calculations. 
+12:07:39 DEBUG arabienko.task05thread.service.threadImpl.MatricesMultiply - thread MultiplyThread- finished multiply...
+12:07:39 DEBUG arabienko.task05thread.service.threadImpl.MatricesMultiply - thread MultiplyThread- result multiply= 
+Matrix: 4 x 4
+1.0 44.0 9.0 40.0 
+1.0 625.0 36.0 108.0 
+4.0 25.0 81.0 -36.0 
+-2.0 -16.0 -27.0 1625.0 
+
+12:07:39 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
+12:07:40 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
+12:07:40 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
+Matrix: 4 x 4
+1 2 3 8 
+1 25 6 6 
+2 5 9 12 
+-1 -2 3 25 
+
+12:07:40 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
+12:07:40 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
+Matrix: 4 x 4
+1 22 3 5 
+1 25 6 18 
+2 5 9 -3 
+2 8 -9 65 
+
+12:07:40 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- started sum...
+12:07:40 DEBUG arabienko.task05thread.service.threadImpl.SumRows - Row was calculated. Return in main thread to continue calculations. 
+12:07:40 DEBUG arabienko.task05thread.service.threadImpl.SumRows - Row was calculated. Return in main thread to continue calculations. 
+12:07:40 DEBUG arabienko.task05thread.service.threadImpl.SumRows - Row was calculated. Return in main thread to continue calculations. 
+12:07:40 DEBUG arabienko.task05thread.service.threadImpl.SumRows - Row was calculated. Return in main thread to continue calculations. 
+12:07:40 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- finished sum...
+12:07:40 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- result sum= 
+Matrix: 4 x 4
+2.0 24.0 6.0 13.0 
+2.0 50.0 12.0 24.0 
+4.0 10.0 18.0 9.0 
+1.0 6.0 -6.0 90.0 
+
+12:07:40 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
+12:07:40 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
+12:07:40 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
+Massive: 15 elements 
+1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
+12:07:40 DEBUG arabienko.task05thread.service.threadImpl.SortMergeArray - Start mergeSort- MergeArrayThread-
+12:07:40 DEBUG arabienko.task05thread.service.threadImpl.SortMergeArray - Method merge sort is completed. Array: 
+Massive: 15 elements 
+-36, -9, 0, 1, 5, 5, 6, 8, 15, 20, 25, 32, 40, 86, 87, 
+12:07:40 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
+12:07:40 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
+12:07:41 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
+Matrix: 4 x 4
+1 2 3 8 
+1 25 6 6 
+2 5 9 12 
+-1 -2 3 25 
+
+12:07:41 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
+12:07:41 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
+Matrix: 4 x 4
+1 22 3 5 
+1 25 6 18 
+2 5 9 -3 
+2 8 -9 65 
+
+12:07:41 DEBUG arabienko.task05thread.service.threadImpl.MatricesSubstraction - thread SubtractThread- started substraction...
+12:07:41 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - Row was calculated. Return in main thread to continue calculations. 
+12:07:41 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - Row was calculated. Return in main thread to continue calculations. 
+12:07:41 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - Row was calculated. Return in main thread to continue calculations. 
+12:07:41 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - Row was calculated. Return in main thread to continue calculations. 
+12:07:41 DEBUG arabienko.task05thread.service.threadImpl.MatricesSubstraction - thread SubtractThread- finished substraction, result Substraction: 
 Matrix: 4 x 4
 0.0 -20.0 0.0 3.0 
 0.0 0.0 0.0 -12.0 
 0.0 0.0 0.0 15.0 
 -3.0 -10.0 12.0 -40.0 
 
-18:48:57 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:48:57 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:48:57 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:48:57 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 2 3 8 
-1 25 6 6 
-2 5 9 12 
--1 -2 3 25 
-
-18:48:57 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 22 3 5 
-1 25 6 18 
-2 5 9 -3 
-2 8 -9 65 
-
-18:48:57 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- started sum...
-18:48:57 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- finished sum...
-18:48:57 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- result sum= 
-Matrix: 4 x 4
-2.0 24.0 6.0 13.0 
-2.0 50.0 12.0 24.0 
-4.0 10.0 18.0 9.0 
-1.0 6.0 -6.0 90.0 
-
-18:48:57 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:48:57 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
-18:48:58 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
+12:07:41 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
+12:07:41 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
+12:07:41 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
 Massive: 15 elements 
 1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
-18:48:58 DEBUG arabienko.task05thread.service.threadImpl.SortShakerArray -  Method shaker completed. 
+12:07:41 DEBUG arabienko.task05thread.service.threadImpl.SortShakerArray -  Method shaker completed. 
 Massive: 15 elements 
 -36.0, -9.0, 0.0, 1.0, 5.0, 5.0, 6.0, 8.0, 15.0, 20.0, 25.0, 32.0, 40.0, 86.0, 87.0, 
-18:48:58 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:48:58 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
-18:48:58 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
+12:07:41 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
+12:07:41 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
+12:07:41 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
 Massive: 15 elements 
 1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
-18:48:58 DEBUG arabienko.task05thread.service.threadImpl.SortShakerArray -  Method shaker completed. 
+12:07:41 DEBUG arabienko.task05thread.service.threadImpl.SortSimpleArray - Start SimpleSort- SimpleSortThread-
+12:07:41 DEBUG arabienko.task05thread.service.threadImpl.SortSimpleArray - Method simple sort is completed. Array: 
 Massive: 15 elements 
 -36.0, -9.0, 0.0, 1.0, 5.0, 5.0, 6.0, 8.0, 15.0, 20.0, 25.0, 32.0, 40.0, 86.0, 87.0, 
-18:48:58 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:48:58 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:48:58 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:48:58 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
+12:07:41 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
+12:07:42 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
+12:07:42 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
+Massive: 15 elements 
+1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
+12:07:42 DEBUG arabienko.task05thread.service.threadImpl.SortSimpleArray - Start SimpleSort- SimpleSortThread-
+12:07:42 DEBUG arabienko.task05thread.service.threadImpl.SortSimpleArray - Method simple sort is completed. Array: 
+Massive: 15 elements 
+-36.0, -9.0, 0.0, 1.0, 5.0, 5.0, 6.0, 8.0, 15.0, 20.0, 25.0, 32.0, 40.0, 86.0, 87.0, 
+12:07:42 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
+12:07:42 DEBUG by.arabienko.task05thread.controller.RunnerCommand - Finish to simulate the work of the client side... Total execution: ms 4608
+12:10:16 DEBUG by.arabienko.task05thread.controller.RunnerCommand - Starting to simulate the work of the client side... Start time: февр. 04,2022 12:10:16:001
+12:10:16 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
+12:10:17 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
+Massive: 15 elements 
+1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
+12:10:17 DEBUG arabienko.task05thread.service.threadImpl.SortExchangeArray - Start ExchangeSort- ExchangeArrayThread-
+12:10:17 DEBUG arabienko.task05thread.service.threadImpl.SortExchangeArray - Exchange sort massive.
+Massive: 15 elements 
+-36.0, -9.0, 0.0, 1.0, 5.0, 5.0, 6.0, 8.0, 15.0, 20.0, 25.0, 32.0, 40.0, 86.0, 87.0, 
+12:10:17 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
+12:10:17 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
+12:10:17 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
+Massive: 15 elements 
+1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
+12:10:17 DEBUG arabienko.task05thread.service.threadImpl.SortShellArray - Start ShellSort- ShellSortThread-
+12:10:17 DEBUG arabienko.task05thread.service.threadImpl.SortShellArray - Sort Method is completed. 
+Massive: 15 elements 
+-36.0, -9.0, 0.0, 1.0, 5, 5.0, 6.0, 8, 15, 20, 25, 32, 40.0, 86, 87, 
+12:10:17 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
+12:10:17 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
+12:10:17 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
+12:10:17 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
 Matrix: 4 x 4
 1 2 3 8 
 1 25 6 6 
 2 5 9 12 
 -1 -2 3 25 
 
-18:48:58 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
+12:10:17 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
 Matrix: 4 x 4
 1 22 3 5 
 1 25 6 18 
 2 5 9 -3 
 2 8 -9 65 
 
-18:48:58 DEBUG arabienko.task05thread.service.threadImpl.MatricesMultiply - thread MultiplyThread- finished multiply...
-18:48:58 DEBUG arabienko.task05thread.service.threadImpl.MatricesMultiply - thread MultiplyThread- result multiply= 
-Matrix: 4 x 4
-1.0 44.0 9.0 40.0 
-1.0 625.0 36.0 108.0 
-4.0 25.0 81.0 -36.0 
--2.0 -16.0 -27.0 1625.0 
-
-18:48:58 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:48:59 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:48:59 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:48:59 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 2 3 8 
-1 25 6 6 
-2 5 9 12 
--1 -2 3 25 
-
-18:48:59 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 22 3 5 
-1 25 6 18 
-2 5 9 -3 
-2 8 -9 65 
-
-18:48:59 DEBUG arabienko.task05thread.service.threadImpl.MatricesMultiply - thread MultiplyThread- finished multiply...
-18:48:59 DEBUG arabienko.task05thread.service.threadImpl.MatricesMultiply - thread MultiplyThread- result multiply= 
-Matrix: 4 x 4
-1.0 44.0 9.0 40.0 
-1.0 625.0 36.0 108.0 
-4.0 25.0 81.0 -36.0 
--2.0 -16.0 -27.0 1625.0 
-
-18:48:59 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:48:59 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:48:59 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:48:59 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 2 3 8 
-1 25 6 6 
-2 5 9 12 
--1 -2 3 25 
-
-18:48:59 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 22 3 5 
-1 25 6 18 
-2 5 9 -3 
-2 8 -9 65 
-
-18:48:59 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- started sum...
-18:48:59 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- finished sum...
-18:48:59 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- result sum= 
-Matrix: 4 x 4
-2.0 24.0 6.0 13.0 
-2.0 50.0 12.0 24.0 
-4.0 10.0 18.0 9.0 
-1.0 6.0 -6.0 90.0 
-
-18:48:59 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:49:00 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:49:00 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:49:00 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 2 3 8 
-1 25 6 6 
-2 5 9 12 
--1 -2 3 25 
-
-18:49:00 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 22 3 5 
-1 25 6 18 
-2 5 9 -3 
-2 8 -9 65 
-
-18:49:00 DEBUG arabienko.task05thread.service.threadImpl.MatricesSubstraction - thread SubtractThread- started substraction...
-18:49:00 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - All rows were calculated.Return in main thread to continue calculations. 0
-18:49:00 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - All rows were calculated.Return in main thread to continue calculations. 0
-18:49:00 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - All rows were calculated.Return in main thread to continue calculations. 0
-18:49:00 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - All rows were calculated.Return in main thread to continue calculations. 0
-18:49:00 DEBUG arabienko.task05thread.service.threadImpl.MatricesSubstraction - thread SubtractThread- finished substraction, result Substraction: 
+12:10:17 DEBUG arabienko.task05thread.service.threadImpl.MatricesSubstraction - thread SubtractThread- started substraction...
+12:10:17 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - Row was calculated. Return in main thread to continue calculations. 
+12:10:17 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - Row was calculated. Return in main thread to continue calculations. 
+12:10:17 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - Row was calculated. Return in main thread to continue calculations. 
+12:10:17 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - Row was calculated. Return in main thread to continue calculations. 
+12:10:17 DEBUG arabienko.task05thread.service.threadImpl.MatricesSubstraction - thread SubtractThread- finished substraction, result Substraction: 
 Matrix: 4 x 4
 0.0 -20.0 0.0 3.0 
 0.0 0.0 0.0 -12.0 
 0.0 0.0 0.0 15.0 
 -3.0 -10.0 12.0 -40.0 
 
-18:49:00 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:49:00 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:49:00 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:49:00 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 2 3 8 
-1 25 6 6 
-2 5 9 12 
--1 -2 3 25 
-
-18:49:00 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 22 3 5 
-1 25 6 18 
-2 5 9 -3 
-2 8 -9 65 
-
-18:49:00 DEBUG arabienko.task05thread.service.threadImpl.MatricesMultiply - thread MultiplyThread- finished multiply...
-18:49:00 DEBUG arabienko.task05thread.service.threadImpl.MatricesMultiply - thread MultiplyThread- result multiply= 
-Matrix: 4 x 4
-1.0 44.0 9.0 40.0 
-1.0 625.0 36.0 108.0 
-4.0 25.0 81.0 -36.0 
--2.0 -16.0 -27.0 1625.0 
-
-18:49:00 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:49:01 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
-18:49:01 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
+12:10:17 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
+12:10:18 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
+12:10:18 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
 Massive: 15 elements 
 1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
-18:49:01 DEBUG arabienko.task05thread.service.threadImpl.SortExchangeArray - Start ExchangeSort- ExchangeArrayThread-
-18:49:01 DEBUG arabienko.task05thread.service.threadImpl.SortExchangeArray - Exchange sort massive.
-Massive: 15 elements 
--36.0, -9.0, 0.0, 1.0, 5.0, 5.0, 6.0, 8.0, 15.0, 20.0, 25.0, 32.0, 40.0, 86.0, 87.0, 
-18:49:01 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:49:01 DEBUG by.arabienko.task05thread.controller.RunnerCommand - Finish to simulate the work of the client side... Total execution: ms 4536
-18:52:02 DEBUG by.arabienko.task05thread.controller.RunnerCommand - Starting to simulate the work of the client side... Start time: февр. 02,2022 18:52:02:001
-18:52:03 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:52:03 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:52:03 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 2 3 8 
-1 25 6 6 
-2 5 9 12 
--1 -2 3 25 
-
-18:52:03 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 22 3 5 
-1 25 6 18 
-2 5 9 -3 
-2 8 -9 65 
-
-18:52:03 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- started sum...
-18:52:03 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- finished sum...
-18:52:03 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- result sum= 
-Matrix: 4 x 4
-2.0 24.0 6.0 13.0 
-2.0 50.0 12.0 24.0 
-4.0 10.0 18.0 9.0 
-1.0 6.0 -6.0 90.0 
-
-18:52:03 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:52:03 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:52:03 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:52:03 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 2 3 8 
-1 25 6 6 
-2 5 9 12 
--1 -2 3 25 
-
-18:52:03 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 22 3 5 
-1 25 6 18 
-2 5 9 -3 
-2 8 -9 65 
-
-18:52:03 DEBUG arabienko.task05thread.service.threadImpl.MatricesMultiply - thread MultiplyThread- finished multiply...
-18:52:03 DEBUG arabienko.task05thread.service.threadImpl.MatricesMultiply - thread MultiplyThread- result multiply= 
-Matrix: 4 x 4
-1.0 44.0 9.0 40.0 
-1.0 625.0 36.0 108.0 
-4.0 25.0 81.0 -36.0 
--2.0 -16.0 -27.0 1625.0 
-
-18:52:03 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:52:04 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
-18:52:04 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
-Massive: 15 elements 
-1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
-18:52:04 DEBUG arabienko.task05thread.service.threadImpl.SortInsertionArray - Start InsertionSort- InsertionSortThread-
-18:52:04 DEBUG arabienko.task05thread.service.threadImpl.SortInsertionArray - Method insertion sort is completed. Array: 
-Massive: 15 elements 
--36.0, -9.0, 0.0, 1, 5.0, 5.0, 6.0, 8.0, 15.0, 20.0, 25.0, 32.0, 40.0, 86.0, 87.0, 
-18:52:04 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:52:04 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:52:04 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:52:04 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 2 3 8 
-1 25 6 6 
-2 5 9 12 
--1 -2 3 25 
-
-18:52:04 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 22 3 5 
-1 25 6 18 
-2 5 9 -3 
-2 8 -9 65 
-
-18:52:04 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- started sum...
-18:52:04 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- finished sum...
-18:52:04 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- result sum= 
-Matrix: 4 x 4
-2.0 24.0 6.0 13.0 
-2.0 50.0 12.0 24.0 
-4.0 10.0 18.0 9.0 
-1.0 6.0 -6.0 90.0 
-
-18:52:04 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:52:04 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
-18:52:05 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
-Massive: 15 elements 
-1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
-18:52:05 DEBUG arabienko.task05thread.service.threadImpl.SortMergeArray - Start mergeSort- MergeArrayThread-
-18:52:05 DEBUG arabienko.task05thread.service.threadImpl.SortMergeArray - Method merge sort is completed. Array: 
-Massive: 15 elements 
--36, -9, 0, 1, 5, 5, 6, 8, 15, 20, 25, 32, 40, 86, 87, 
-18:52:05 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:52:05 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
-18:52:05 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
-Massive: 15 elements 
-1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
-18:52:05 DEBUG arabienko.task05thread.service.threadImpl.SortShellArray - Start ShellSort- ShellSortThread-
-18:52:05 DEBUG arabienko.task05thread.service.threadImpl.SortShellArray - Sort Method is completed. 
+12:10:18 DEBUG arabienko.task05thread.service.threadImpl.SortShellArray - Start ShellSort- ShellSortThread-
+12:10:18 DEBUG arabienko.task05thread.service.threadImpl.SortShellArray - Sort Method is completed. 
 Massive: 15 elements 
 -36.0, -9.0, 0.0, 1.0, 5, 5.0, 6.0, 8, 15, 20, 25, 32, 40.0, 86, 87, 
-18:52:05 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:52:05 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
-18:52:05 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
+12:10:18 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
+12:10:18 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
+12:10:18 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
 Massive: 15 elements 
 1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
-18:52:05 DEBUG arabienko.task05thread.service.threadImpl.SortInsertionArray - Start InsertionSort- InsertionSortThread-
-18:52:05 DEBUG arabienko.task05thread.service.threadImpl.SortInsertionArray - Method insertion sort is completed. Array: 
+12:10:18 DEBUG arabienko.task05thread.service.threadImpl.SortInsertionArray - Start InsertionSort- InsertionSortThread-
+12:10:18 DEBUG arabienko.task05thread.service.threadImpl.SortInsertionArray - Method insertion sort is completed. Array: 
 Massive: 15 elements 
 -36.0, -9.0, 0.0, 1, 5.0, 5.0, 6.0, 8.0, 15.0, 20.0, 25.0, 32.0, 40.0, 86.0, 87.0, 
-18:52:05 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:52:05 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
-18:52:05 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
-Massive: 15 elements 
-1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
-18:52:05 DEBUG arabienko.task05thread.service.threadImpl.SortShakerArray -  Method shaker completed. 
-Massive: 15 elements 
--36.0, -9.0, 0.0, 1.0, 5.0, 5.0, 6.0, 8.0, 15.0, 20.0, 25.0, 32.0, 40.0, 86.0, 87.0, 
-18:52:05 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:52:06 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:52:06 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:52:06 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
+12:10:18 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
+12:10:18 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
+12:10:18 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
 Matrix: 4 x 4
 1 2 3 8 
 1 25 6 6 
 2 5 9 12 
 -1 -2 3 25 
 
-18:52:06 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
+12:10:18 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
+12:10:18 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
 Matrix: 4 x 4
 1 22 3 5 
 1 25 6 18 
 2 5 9 -3 
 2 8 -9 65 
 
-18:52:06 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- started sum...
-18:52:06 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- finished sum...
-18:52:06 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- result sum= 
-Matrix: 4 x 4
-2.0 24.0 6.0 13.0 
-2.0 50.0 12.0 24.0 
-4.0 10.0 18.0 9.0 
-1.0 6.0 -6.0 90.0 
-
-18:52:06 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:52:06 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
-18:52:06 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
-Massive: 15 elements 
-1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
-18:52:06 DEBUG arabienko.task05thread.service.threadImpl.SortSimpleArray - Start SimpleSort- SimpleSortThread-
-18:52:06 DEBUG arabienko.task05thread.service.threadImpl.SortSimpleArray - Method simple sort is completed. Array: 
-Massive: 15 elements 
--36.0, -9.0, 0.0, 1.0, 5.0, 5.0, 6.0, 8.0, 15.0, 20.0, 25.0, 32.0, 40.0, 86.0, 87.0, 
-18:52:06 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:52:06 DEBUG by.arabienko.task05thread.controller.RunnerCommand - Finish to simulate the work of the client side... Total execution: ms 3937
-18:53:21 DEBUG by.arabienko.task05thread.controller.RunnerCommand - Starting to simulate the work of the client side... Start time: февр. 02,2022 18:53:21:001
-18:53:21 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
-18:53:21 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
-Massive: 15 elements 
-1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
-18:53:21 DEBUG arabienko.task05thread.service.threadImpl.SortMergeArray - Start mergeSort- MergeArrayThread-
-18:53:21 DEBUG arabienko.task05thread.service.threadImpl.SortMergeArray - Method merge sort is completed. Array: 
-Massive: 15 elements 
--36, -9, 0, 1, 5, 5, 6, 8, 15, 20, 25, 32, 40, 86, 87, 
-18:53:21 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:53:21 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
-18:53:21 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
-Massive: 15 elements 
-1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
-18:53:21 DEBUG arabienko.task05thread.service.threadImpl.SortMergeArray - Start mergeSort- MergeArrayThread-
-18:53:21 DEBUG arabienko.task05thread.service.threadImpl.SortMergeArray - Method merge sort is completed. Array: 
-Massive: 15 elements 
--36, -9, 0, 1, 5, 5, 6, 8, 15, 20, 25, 32, 40, 86, 87, 
-18:53:21 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:53:21 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:53:21 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:53:21 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 2 3 8 
-1 25 6 6 
-2 5 9 12 
--1 -2 3 25 
-
-18:53:22 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 22 3 5 
-1 25 6 18 
-2 5 9 -3 
-2 8 -9 65 
-
-18:53:22 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- started sum...
-18:53:22 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- finished sum...
-18:53:22 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- result sum= 
-Matrix: 4 x 4
-2.0 24.0 6.0 13.0 
-2.0 50.0 12.0 24.0 
-4.0 10.0 18.0 9.0 
-1.0 6.0 -6.0 90.0 
-
-18:53:22 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:53:22 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:53:22 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:53:22 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 2 3 8 
-1 25 6 6 
-2 5 9 12 
--1 -2 3 25 
-
-18:53:22 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 22 3 5 
-1 25 6 18 
-2 5 9 -3 
-2 8 -9 65 
-
-18:53:22 DEBUG arabienko.task05thread.service.threadImpl.MatricesMultiply - thread MultiplyThread- finished multiply...
-18:53:22 DEBUG arabienko.task05thread.service.threadImpl.MatricesMultiply - thread MultiplyThread- result multiply= 
-Matrix: 4 x 4
-1.0 44.0 9.0 40.0 
-1.0 625.0 36.0 108.0 
-4.0 25.0 81.0 -36.0 
--2.0 -16.0 -27.0 1625.0 
-
-18:53:22 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:53:22 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
-18:53:22 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
-Massive: 15 elements 
-1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
-18:53:22 DEBUG arabienko.task05thread.service.threadImpl.SortSimpleArray - Start SimpleSort- SimpleSortThread-
-18:53:22 DEBUG arabienko.task05thread.service.threadImpl.SortSimpleArray - Method simple sort is completed. Array: 
-Massive: 15 elements 
--36.0, -9.0, 0.0, 1.0, 5.0, 5.0, 6.0, 8.0, 15.0, 20.0, 25.0, 32.0, 40.0, 86.0, 87.0, 
-18:53:22 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:53:23 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:53:23 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 2 3 8 
-1 25 6 6 
-2 5 9 12 
--1 -2 3 25 
-
-18:53:23 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:53:23 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 22 3 5 
-1 25 6 18 
-2 5 9 -3 
-2 8 -9 65 
-
-18:53:23 DEBUG arabienko.task05thread.service.threadImpl.MatricesSubstraction - thread SubtractThread- started substraction...
-18:53:23 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - Row was calculated. Return in main thread to continue calculations. [Ljava.lang.Number;@70b32dfc
-18:53:23 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - Row was calculated. Return in main thread to continue calculations. [Ljava.lang.Number;@962ee7f
-18:53:23 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - Row was calculated. Return in main thread to continue calculations. [Ljava.lang.Number;@59ce3789
-18:53:23 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - Row was calculated. Return in main thread to continue calculations. [Ljava.lang.Number;@22179306
-18:53:23 DEBUG arabienko.task05thread.service.threadImpl.MatricesSubstraction - thread SubtractThread- finished substraction, result Substraction: 
+12:10:18 DEBUG arabienko.task05thread.service.threadImpl.MatricesSubstraction - thread SubtractThread- started substraction...
+12:10:18 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - Row was calculated. Return in main thread to continue calculations. 
+12:10:18 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - Row was calculated. Return in main thread to continue calculations. 
+12:10:18 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - Row was calculated. Return in main thread to continue calculations. 
+12:10:18 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - Row was calculated. Return in main thread to continue calculations. 
+12:10:19 DEBUG arabienko.task05thread.service.threadImpl.MatricesSubstraction - thread SubtractThread- finished substraction, result Substraction: 
 Matrix: 4 x 4
 0.0 -20.0 0.0 3.0 
 0.0 0.0 0.0 -12.0 
 0.0 0.0 0.0 15.0 
 -3.0 -10.0 12.0 -40.0 
 
-18:53:23 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:53:23 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
-18:53:23 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
-Massive: 15 elements 
-1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
-18:53:23 DEBUG arabienko.task05thread.service.threadImpl.SortMergeArray - Start mergeSort- MergeArrayThread-
-18:53:23 DEBUG arabienko.task05thread.service.threadImpl.SortMergeArray - Method merge sort is completed. Array: 
-Massive: 15 elements 
--36, -9, 0, 1, 5, 5, 6, 8, 15, 20, 25, 32, 40, 86, 87, 
-18:53:23 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:53:23 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
-18:53:24 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
-Massive: 15 elements 
-1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
-18:53:24 DEBUG arabienko.task05thread.service.threadImpl.SortShellArray - Start ShellSort- ShellSortThread-
-18:53:24 DEBUG arabienko.task05thread.service.threadImpl.SortShellArray - Sort Method is completed. 
-Massive: 15 elements 
--36.0, -9.0, 0.0, 1.0, 5, 5.0, 6.0, 8, 15, 20, 25, 32, 40.0, 86, 87, 
-18:53:24 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:53:24 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
-18:53:24 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
-Massive: 15 elements 
-1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
-18:53:24 DEBUG arabienko.task05thread.service.threadImpl.SortInsertionArray - Start InsertionSort- InsertionSortThread-
-18:53:24 DEBUG arabienko.task05thread.service.threadImpl.SortInsertionArray - Method insertion sort is completed. Array: 
-Massive: 15 elements 
--36.0, -9.0, 0.0, 1, 5.0, 5.0, 6.0, 8.0, 15.0, 20.0, 25.0, 32.0, 40.0, 86.0, 87.0, 
-18:53:24 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:53:24 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:53:24 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-18:53:24 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
+12:10:19 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
+12:10:19 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
+12:10:19 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
 Matrix: 4 x 4
 1 2 3 8 
 1 25 6 6 
 2 5 9 12 
 -1 -2 3 25 
 
-18:53:24 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
+12:10:19 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
+12:10:19 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
 Matrix: 4 x 4
 1 22 3 5 
 1 25 6 18 
 2 5 9 -3 
 2 8 -9 65 
 
-18:53:24 DEBUG arabienko.task05thread.service.threadImpl.MatricesMultiply - thread MultiplyThread- finished multiply...
-18:53:24 DEBUG arabienko.task05thread.service.threadImpl.MatricesMultiply - thread MultiplyThread- result multiply= 
+12:10:19 DEBUG arabienko.task05thread.service.threadImpl.MultiplyRows - Row was calculated. Return in main thread to continue calculations. 
+12:10:19 DEBUG arabienko.task05thread.service.threadImpl.MultiplyRows - Row was calculated. Return in main thread to continue calculations. 
+12:10:19 DEBUG arabienko.task05thread.service.threadImpl.MultiplyRows - Row was calculated. Return in main thread to continue calculations. 
+12:10:19 DEBUG arabienko.task05thread.service.threadImpl.MultiplyRows - Row was calculated. Return in main thread to continue calculations. 
+12:10:19 DEBUG arabienko.task05thread.service.threadImpl.MatricesMultiply - thread MultiplyThread- finished multiply...
+12:10:19 DEBUG arabienko.task05thread.service.threadImpl.MatricesMultiply - thread MultiplyThread- result multiply= 
 Matrix: 4 x 4
 1.0 44.0 9.0 40.0 
 1.0 625.0 36.0 108.0 
 4.0 25.0 81.0 -36.0 
 -2.0 -16.0 -27.0 1625.0 
 
-18:53:24 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-18:53:25 DEBUG by.arabienko.task05thread.controller.RunnerCommand - Finish to simulate the work of the client side... Total execution: ms 3950
-15:15:46 DEBUG by.arabienko.task05thread.controller.RunnerCommand - Starting to simulate the work of the client side... Start time: февр. 03,2022 15:15:46:001
-15:15:47 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
-15:15:47 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
+12:10:19 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
+12:10:19 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
+12:10:19 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
 Massive: 15 elements 
 1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
-15:15:47 DEBUG arabienko.task05thread.service.threadImpl.SortExchangeArray - Start ExchangeSort- ExchangeArrayThread-
-15:15:47 DEBUG arabienko.task05thread.service.threadImpl.SortExchangeArray - Exchange sort massive.
+12:10:19 DEBUG arabienko.task05thread.service.threadImpl.SortSimpleArray - Start SimpleSort- SimpleSortThread-
+12:10:19 DEBUG arabienko.task05thread.service.threadImpl.SortSimpleArray - Method simple sort is completed. Array: 
 Massive: 15 elements 
 -36.0, -9.0, 0.0, 1.0, 5.0, 5.0, 6.0, 8.0, 15.0, 20.0, 25.0, 32.0, 40.0, 86.0, 87.0, 
-15:15:47 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-15:15:47 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
-15:15:47 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
+12:10:19 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
+12:10:20 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
+12:10:20 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
 Massive: 15 elements 
 1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
-15:15:47 DEBUG arabienko.task05thread.service.threadImpl.SortInsertionArray - Start InsertionSort- InsertionSortThread-
-15:15:47 DEBUG arabienko.task05thread.service.threadImpl.SortInsertionArray - Method insertion sort is completed. Array: 
-Massive: 15 elements 
--36.0, -9.0, 0.0, 1, 5.0, 5.0, 6.0, 8.0, 15.0, 20.0, 25.0, 32.0, 40.0, 86.0, 87.0, 
-15:15:47 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-15:15:47 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
-15:15:47 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
-Massive: 15 elements 
-1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
-15:15:47 DEBUG arabienko.task05thread.service.threadImpl.SortShellArray - Start ShellSort- ShellSortThread-
-15:15:47 DEBUG arabienko.task05thread.service.threadImpl.SortShellArray - Sort Method is completed. 
+12:10:20 DEBUG arabienko.task05thread.service.threadImpl.SortShellArray - Start ShellSort- ShellSortThread-
+12:10:20 DEBUG arabienko.task05thread.service.threadImpl.SortShellArray - Sort Method is completed. 
 Massive: 15 elements 
 -36.0, -9.0, 0.0, 1.0, 5, 5.0, 6.0, 8, 15, 20, 25, 32, 40.0, 86, 87, 
-15:15:47 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-15:15:48 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
-15:15:48 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
+12:10:20 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
+12:10:20 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
+12:10:20 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
 Massive: 15 elements 
 1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
-15:15:48 DEBUG arabienko.task05thread.service.threadImpl.SortShakerArray -  Method shaker completed. 
+12:10:20 DEBUG arabienko.task05thread.service.threadImpl.SortExchangeArray - Start ExchangeSort- ExchangeArrayThread-
+12:10:20 DEBUG arabienko.task05thread.service.threadImpl.SortExchangeArray - Exchange sort massive.
 Massive: 15 elements 
 -36.0, -9.0, 0.0, 1.0, 5.0, 5.0, 6.0, 8.0, 15.0, 20.0, 25.0, 32.0, 40.0, 86.0, 87.0, 
-15:15:48 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-15:15:48 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
-15:15:48 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
-Massive: 15 elements 
-1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
-15:15:48 DEBUG arabienko.task05thread.service.threadImpl.SortExchangeArray - Start ExchangeSort- ExchangeArrayThread-
-15:15:48 DEBUG arabienko.task05thread.service.threadImpl.SortExchangeArray - Exchange sort massive.
-Massive: 15 elements 
--36.0, -9.0, 0.0, 1.0, 5.0, 5.0, 6.0, 8.0, 15.0, 20.0, 25.0, 32.0, 40.0, 86.0, 87.0, 
-15:15:48 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-15:15:48 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
-15:15:48 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
-Massive: 15 elements 
-1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
-15:15:48 DEBUG arabienko.task05thread.service.threadImpl.SortExchangeArray - Start ExchangeSort- ExchangeArrayThread-
-15:15:48 DEBUG arabienko.task05thread.service.threadImpl.SortExchangeArray - Exchange sort massive.
-Massive: 15 elements 
--36.0, -9.0, 0.0, 1.0, 5.0, 5.0, 6.0, 8.0, 15.0, 20.0, 25.0, 32.0, 40.0, 86.0, 87.0, 
-15:15:48 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-15:15:48 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
-15:15:49 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
-Massive: 15 elements 
-1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
-15:15:49 DEBUG arabienko.task05thread.service.threadImpl.SortShellArray - Start ShellSort- ShellSortThread-
-15:15:49 DEBUG arabienko.task05thread.service.threadImpl.SortShellArray - Sort Method is completed. 
-Massive: 15 elements 
--36.0, -9.0, 0.0, 1.0, 5, 5.0, 6.0, 8, 15, 20, 25, 32, 40.0, 86, 87, 
-15:15:49 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-15:15:49 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-15:15:49 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-15:15:49 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 2 3 8 
-1 25 6 6 
-2 5 9 12 
--1 -2 3 25 
-
-15:15:49 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 22 3 5 
-1 25 6 18 
-2 5 9 -3 
-2 8 -9 65 
-
-15:15:49 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- started sum...
-15:15:49 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- finished sum...
-15:15:49 DEBUG arabienko.task05thread.service.threadImpl.MatricesSum - thread SumThread- result sum= 
-Matrix: 4 x 4
-2.0 24.0 6.0 13.0 
-2.0 50.0 12.0 24.0 
-4.0 10.0 18.0 9.0 
-1.0 6.0 -6.0 90.0 
-
-15:15:49 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-15:15:49 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-15:15:49 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - start creation matrix from thread: THREAD_CREATE_MATRIX-
-15:15:49 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 2 3 8 
-1 25 6 6 
-2 5 9 12 
--1 -2 3 25 
-
-15:15:50 DEBUG arabienko.task05thread.service.threadImpl.CreateMatrixInStreams - THREAD_CREATE_MATRIX- thread finished to create matrix: 
-Matrix: 4 x 4
-1 22 3 5 
-1 25 6 18 
-2 5 9 -3 
-2 8 -9 65 
-
-15:15:50 DEBUG arabienko.task05thread.service.threadImpl.MatricesSubstraction - thread SubtractThread- started substraction...
-15:15:50 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - Row was calculated. Return in main thread to continue calculations. 
-15:15:50 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - Row was calculated. Return in main thread to continue calculations. 
-15:15:50 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - Row was calculated. Return in main thread to continue calculations. 
-15:15:50 DEBUG arabienko.task05thread.service.threadImpl.SubstractionRows - Row was calculated. Return in main thread to continue calculations. 
-15:15:50 DEBUG arabienko.task05thread.service.threadImpl.MatricesSubstraction - thread SubtractThread- finished substraction, result Substraction: 
-Matrix: 4 x 4
-0.0 -20.0 0.0 3.0 
-0.0 0.0 0.0 -12.0 
-0.0 0.0 0.0 15.0 
--3.0 -10.0 12.0 -40.0 
-
-15:15:50 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-15:15:50 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- started create array...
-15:15:50 DEBUG arabienko.task05thread.service.threadImpl.CreateArrayInStreams - thread THREAD_CREATE_MATRIX- result array= 
-Massive: 15 elements 
-1, 5, 8, -9, 25, 86, -36, 40, 15, 20, 87, 32, 0, 5, 6, 
-15:15:50 DEBUG arabienko.task05thread.service.threadImpl.SortInsertionArray - Start InsertionSort- InsertionSortThread-
-15:15:50 DEBUG arabienko.task05thread.service.threadImpl.SortInsertionArray - Method insertion sort is completed. Array: 
-Massive: 15 elements 
--36.0, -9.0, 0.0, 1, 5.0, 5.0, 6.0, 8.0, 15.0, 20.0, 25.0, 32.0, 40.0, 86.0, 87.0, 
-15:15:50 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
-15:15:50 DEBUG by.arabienko.task05thread.controller.RunnerCommand - Finish to simulate the work of the client side... Total execution: ms 3566
+12:10:20 DEBUG arabienko.task05thread.service.threadImpl.CommonResourceWriteToFile - Start writing to file - WriteThread-
+12:10:20 DEBUG by.arabienko.task05thread.controller.RunnerCommand - Finish to simulate the work of the client side... Total execution: ms 3988

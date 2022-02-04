@@ -7,8 +7,9 @@ import by.arabienko.task05thread.service.Validation;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.concurrent.Callable;
-import java.util.concurrent.TimeUnit;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.*;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
@@ -44,6 +45,7 @@ public class MatricesSum implements Callable<Matrix>, IThread {
     public Matrix call() throws Exception {
         Validation validation = new Validation();
         Matrix newMatrix;
+        Number[][] newNum;
         LOGGER.debug("thread "
                 + this.getNameThread() + " started sum...");
         lock.lock();
@@ -51,15 +53,24 @@ public class MatricesSum implements Callable<Matrix>, IThread {
                 (matrixFirst, matrixSecond) &
                 validation.checkIsEmptyMatrix(matrixFirst) &
                 validation.checkIsEmptyMatrix(matrixSecond)) {
-            newMatrix = new Matrix(matrixFirst.getNumberRows(),
-                    matrixFirst.getNumberColumns());
+            newNum =
+                    new Number[matrixFirst.getNumberRows()][];
+            Phaser phaser = new Phaser();
+            List<Future<Number[]>> futureList = new ArrayList<>();
+            ExecutorService pool =
+                    Executors.newFixedThreadPool(10);
             for (int i = 0; i < matrixFirst.getNumberRows(); i++) {
-                for (int j = 0; j < matrixFirst.getNumberColumns(); j++) {
-                    double value = matrixFirst.getElement(i, j).doubleValue()
-                            + matrixSecond.getElement(i, j).doubleValue();
-                    newMatrix.setElement(i, j, value);
-                }
+                futureList.add(pool.submit(
+                        new SumRows(matrixFirst.getMatrix()[i],
+                                matrixSecond.getMatrix()[i], phaser)));
             }
+            phaser.arriveAndDeregister();
+            for (int i = 0; i < matrixFirst.getNumberRows(); i++) {
+                newNum[i] = futureList.get(i).get();
+            }
+            phaser.arriveAndDeregister();
+            pool.shutdown();
+            newMatrix = new Matrix(newNum);
         } else {
             LOGGER.debug("Operation on matrices is not possible!");
             throw new ServiceException("Operation on matrices is not possible!");
