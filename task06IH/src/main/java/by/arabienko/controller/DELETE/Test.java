@@ -41,11 +41,8 @@ public class Test {
         parThreeSentOneLexTwo.addElement(parThreeSentOneWord2Two);
         ComponentLeaf parThreeSentOneWord2Two1 = new ComponentLeaf('.');
         parThreeSentOneWord2Two.addElement(parThreeSentOneWord2Two1);
-
-
         parThreeSentOne.addElement(parThreeSentOneLexOne);
         parThreeSentOne.addElement(parThreeSentOneLexTwo);
-
         //Red - green.
         CompositeParts parThreeSentTwo = new CompositeParts(TypeRegex.DELIM_LEXEME.getRegexForSplit());
         CompositeParts parThreeSentTwoLexOne = new CompositeParts(TypeRegex.DELIM_LEXEME.getRegexForSplit());
@@ -64,7 +61,6 @@ public class Test {
         parThreeSentTwoWordOne11.addElement(parThreeSentTwoWordOne111);
         parThreeSentTwoLexOne1.addElement(parThreeSentTwoWordOne11);
 
-
         CompositeParts parThreeSentTwoLexTwo = new CompositeParts(TypeRegex.DELIM_LEXEME.getRegexForSplit());
         CompositeParts parThreeSentTwoWordOneL2 = new CompositeParts(TypeRegex.DELIM_LEXEME.getRegexForSplit());
         ComponentLeaf parThreeSentTwoWordOneL21 = new ComponentLeaf('g');
@@ -80,7 +76,6 @@ public class Test {
         CompositeParts parThreeSentTwoWordTwoL2 = new CompositeParts(TypeRegex.DELIM_LEXEME.getRegexForSplit());
         ComponentLeaf parThreeSentTwoWordTwoL21 = new ComponentLeaf('.');
         parThreeSentTwoWordTwoL2.addElement(parThreeSentTwoWordTwoL21);
-
 
         parThreeSentTwoLexTwo.addElement(parThreeSentTwoWordOneL2);
         parThreeSentTwoLexTwo.addElement(parThreeSentTwoWordTwoL2);

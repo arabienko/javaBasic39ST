@@ -32,11 +32,26 @@ public class StartingCalculationProcessTest {
                 new ArrayDeque<>();
         reverseNotation3.add("5");
         reverseNotation3.add("~");
+        ArrayDeque<String> reverseNotation4 =
+                new ArrayDeque<>();
+        reverseNotation4.add("2");
+        reverseNotation4.add("6");
+        reverseNotation4.add(">>");
+        reverseNotation4.add("2");
+        reverseNotation4.add("6");
+        reverseNotation4.add("<<");
+        reverseNotation4.add("2");
+        reverseNotation4.add("6");
+        reverseNotation4.add(">>");
+        reverseNotation4.add("^");
+        reverseNotation4.add("&");
        return new Object[][]{
                 new Object[]{reverseNotation, 0},
                 new Object[]{reverseNotation2, 0},
                 new Object[]{reverseNotation3, -6},
-        };
+               new Object[]{reverseNotation4, 1},
+
+       };
     }
     @Test(description = "create_polish_notation",
             dataProvider = "create_polish_notation")

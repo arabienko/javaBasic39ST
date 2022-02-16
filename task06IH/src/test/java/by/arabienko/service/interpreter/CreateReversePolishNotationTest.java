@@ -33,11 +33,28 @@ public class CreateReversePolishNotationTest {
         reverseNotation2.add("^");
         reverseNotation2.add("&");
         reverseNotation2.add(">>");
-      return new Object[][]{
+        ArrayDeque<String> reverseNotation4 =
+                new ArrayDeque<>();
+        reverseNotation4.add("2");
+        reverseNotation4.add("6");
+        reverseNotation4.add(">>");
+        reverseNotation4.add("2");
+        reverseNotation4.add("6");
+        reverseNotation4.add("<<");
+        reverseNotation4.add("2");
+        reverseNotation4.add("6");
+        reverseNotation4.add(">>");
+        reverseNotation4.add("^");
+        reverseNotation4.add("&");
+        String str4 = "(2>>6)&(2<<6)^(2>>6)";
+        return new Object[][]{
                 new Object[]{str, reverseNotation},
                 new Object[]{str2, reverseNotation2},
+                new Object[]{str4, reverseNotation4},
+
         };
     }
+
     @Test(description = "create_polish_notation",
             dataProvider = "create_polish_notation")
     public void testCreationReverse(String str, ArrayDeque<String> expected) {

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="SuiteParam" verbose="1">
+    <parameter name="testng" value=""/>
+    <parameter name="expectedDegree" value=""/>
+    <test name="CollectTextTest">
+        <classes>
+            <class name="by.arabienko.service.impl.collect.CollectTextTest">
+                <methods>
+                    <include name="testCollect"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="ParseTextToParagraphTest">
+        <classes>
+            <class name="by.arabienko.service.impl.parse.ParseTextToParagraphTest">
+                <methods>
+                    <include name="testHandleRequest"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+    <test name="SortLexemesBySymbolCountTest">
+        <classes>
+            <class name="by.arabienko.service.impl.sort.SortLexemesBySymbolCountTest">
+                <methods>
+                    <include name="testSort"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="SortWordsInSentencesByLengthTest">
+        <classes>
+            <class name="by.arabienko.service.impl.sort.SortWordsInSentencesByLengthTest">
+                <methods>
+                    <include name="testSort"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="ReaderFromFileTest">
+        <classes>
+            <class name="by.arabienko.service.impl.ReaderFromFileTest">
+                <methods>
+                    <include name="testReadFromFile"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="WriterToFileTest">
+        <classes>
+            <class name="by.arabienko.service.impl.WriterToFileTest">
+                <methods>
+                    <include name="testWriteToFile"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="CreateReversePolishNotationTest">
+        <classes>
+            <class name="by.arabienko.service.interpreter.CreateReversePolishNotationTest">
+                <methods>
+                    <include name="testCreationReverse"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="StartingCalculationProcessTest">
+        <classes>
+            <class name="by.arabienko.service.interpreter.StartingCalculationProcessTest">
+                <methods>
+                    <include name="testCalculate"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

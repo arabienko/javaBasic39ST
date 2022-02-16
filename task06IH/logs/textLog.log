@@ -4301,3 +4301,606 @@
 2022-02-15 21:19:03 [main] DEBUG by.arabienko.service.impl.WriterToFile - The text is read into a line. text_test
 2022-02-15 21:19:03 [main] DEBUG by.arabienko.service.impl.WriterToFile - File not found. 
 2022-02-15 21:19:03 [main] DEBUG by.arabienko.service.impl.WriterToFile - Error reading file... 
+2022-02-16 21:59:12 [main] DEBUG arabienko.service.impl.collect.CollectText - Start collect from composite to text. class by.arabienko.bean.CompositeParts
+2022-02-16 21:59:12 [main] DEBUG arabienko.service.impl.collect.CollectParagraph - Start collect from composite to paragraph. class by.arabienko.bean.CompositeParts
+2022-02-16 21:59:12 [main] DEBUG arabienko.service.impl.collect.CollectSentence - Start collect from composite to sentence. class by.arabienko.bean.CompositeParts
+2022-02-16 21:59:12 [main] DEBUG arabienko.service.impl.collect.CollectSentence - Start collect from composite to sentence. class by.arabienko.bean.CompositeParts
+2022-02-16 21:59:12 [main] DEBUG arabienko.service.impl.collect.CollectParagraph - Start collect from composite to paragraph. class by.arabienko.bean.CompositeParts
+2022-02-16 21:59:12 [main] DEBUG arabienko.service.impl.collect.CollectSentence - Start collect from composite to sentence. class by.arabienko.bean.CompositeParts
+2022-02-16 21:59:12 [main] DEBUG arabienko.service.impl.collect.CollectSentence - Start collect from composite to sentence. class by.arabienko.bean.CompositeParts
+2022-02-16 21:59:12 [main] DEBUG arabienko.service.impl.collect.CollectParagraph - Start collect from composite to paragraph. class by.arabienko.bean.CompositeParts
+2022-02-16 21:59:12 [main] DEBUG arabienko.service.impl.collect.CollectSentence - Start collect from composite to sentence. class by.arabienko.bean.CompositeParts
+2022-02-16 21:59:12 [main] DEBUG arabienko.service.impl.collect.CollectSentence - Start collect from composite to sentence. class by.arabienko.bean.CompositeParts
+2022-02-16 21:59:12 [main] DEBUG arabienko.service.impl.collect.CollectSentence - Start collect from composite to sentence. class by.arabienko.bean.CompositeParts
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseTextToParagraph - Paragraph: One two three four. Red, green, black.
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseParagraphToSentence - sentence: One two three four.
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: One
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: One
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: O
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: n
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: two
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: two
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: t
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: w
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: o
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: three
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: three
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: t
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: h
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: r
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: four.
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: four
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: f
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: o
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: u
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: r
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: .
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: .
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseParagraphToSentence - sentence: Red, green, black.
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: Red,
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: Red
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: R
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: d
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: ,
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: ,
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: green,
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: green
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: g
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: r
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: n
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: ,
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: ,
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: black.
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: black
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: b
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: l
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: a
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: c
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: k
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: .
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: .
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseTextToParagraph - Paragraph: One two three four five. Red, green, black ((5>>5)^(6<<6))&2 go.
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseParagraphToSentence - sentence: One two three four five.
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: One
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: One
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: O
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: n
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: two
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: two
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: t
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: w
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: o
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: three
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: three
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: t
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: h
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: r
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: four
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: four
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: f
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: o
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: u
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: r
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: five.
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: five
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: f
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: i
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: v
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: .
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: .
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseParagraphToSentence - sentence: Red, green, black ((5>>5)^(6<<6))&2 go.
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: Red,
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: Red
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: R
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: d
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: ,
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: ,
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: green,
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: green
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: g
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: r
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: n
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: ,
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: ,
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: black
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: black
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: b
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: l
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: a
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: c
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: k
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: ((5>>5)^(6<<6))&2
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: ((5>>5)^(6<<6))&2
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: (
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: (
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: 5
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: >
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: >
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: 5
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: )
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: ^
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: (
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: 6
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: <
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: <
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: 6
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: )
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: )
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: &
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: 2
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: go.
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: go
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: g
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: o
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: .
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: .
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseTextToParagraph - Paragraph: Three cats. Red - green. By.
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseParagraphToSentence - sentence: Three cats.
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: Three
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: Three
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: T
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: h
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: r
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: cats.
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: cats
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: c
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: a
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: t
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: s
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: .
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: .
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseParagraphToSentence - sentence: Red - green.
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: Red
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: Red
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: R
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: d
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: -
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: -
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: -
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: green.
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: green
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: g
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: r
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: n
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: .
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: .
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseParagraphToSentence - sentence: By.
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: By.
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: By
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: B
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: y
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: .
+2022-02-16 21:59:12 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: .
+2022-02-16 21:59:12 [main] DEBUG arabienko.service.impl.sort.SortLexemesBySymbolCount - Sort lexemes by symbol count.- e
+2022-02-16 21:59:12 [main] DEBUG arabienko.service.impl.sort.SortWordsInSentencesByLength - Sort words in sentences by length.
+2022-02-16 21:59:12 [main] DEBUG arabienko.service.impl.sort.SortWordsInSentencesByLength - Sort words in sentences by length.
+2022-02-16 21:59:12 [main] DEBUG arabienko.service.impl.sort.SortWordsInSentencesByLength - Sort words in sentences by length.
+2022-02-16 21:59:12 [main] DEBUG arabienko.service.impl.sort.SortWordsInSentencesByLength - Sort words in sentences by length.
+2022-02-16 21:59:12 [main] DEBUG arabienko.service.impl.sort.SortWordsInSentencesByLength - Sort words in sentences by length.
+2022-02-16 21:59:12 [main] DEBUG arabienko.service.impl.sort.SortWordsInSentencesByLength - Sort words in sentences by length.
+2022-02-16 21:59:12 [main] DEBUG arabienko.service.impl.sort.SortWordsInSentencesByLength - Sort words in sentences by length.
+2022-02-16 21:59:12 [main] DEBUG by.arabienko.service.impl.WriterToFile - The text is read into a line. text_test
+2022-02-16 21:59:12 [main] DEBUG by.arabienko.service.impl.WriterToFile - File not found. 
+2022-02-16 21:59:12 [main] DEBUG by.arabienko.service.impl.WriterToFile - Error reading file... 
+2022-02-16 21:59:12 [main] DEBUG by.arabienko.service.impl.WriterToFile - Text was written to file output.txt
+2022-02-16 21:59:12 [main] DEBUG by.arabienko.service.impl.WriterToFile - The text is read into a line. output.txt
+2022-02-16 22:00:44 [main] DEBUG arabienko.service.impl.collect.CollectText - Start collect from composite to text. class by.arabienko.bean.CompositeParts
+2022-02-16 22:00:44 [main] DEBUG arabienko.service.impl.collect.CollectParagraph - Start collect from composite to paragraph. class by.arabienko.bean.CompositeParts
+2022-02-16 22:00:44 [main] DEBUG arabienko.service.impl.collect.CollectSentence - Start collect from composite to sentence. class by.arabienko.bean.CompositeParts
+2022-02-16 22:00:44 [main] DEBUG arabienko.service.impl.collect.CollectSentence - Start collect from composite to sentence. class by.arabienko.bean.CompositeParts
+2022-02-16 22:00:44 [main] DEBUG arabienko.service.impl.collect.CollectParagraph - Start collect from composite to paragraph. class by.arabienko.bean.CompositeParts
+2022-02-16 22:00:44 [main] DEBUG arabienko.service.impl.collect.CollectSentence - Start collect from composite to sentence. class by.arabienko.bean.CompositeParts
+2022-02-16 22:00:44 [main] DEBUG arabienko.service.impl.collect.CollectSentence - Start collect from composite to sentence. class by.arabienko.bean.CompositeParts
+2022-02-16 22:00:44 [main] DEBUG arabienko.service.impl.collect.CollectParagraph - Start collect from composite to paragraph. class by.arabienko.bean.CompositeParts
+2022-02-16 22:00:44 [main] DEBUG arabienko.service.impl.collect.CollectSentence - Start collect from composite to sentence. class by.arabienko.bean.CompositeParts
+2022-02-16 22:00:44 [main] DEBUG arabienko.service.impl.collect.CollectSentence - Start collect from composite to sentence. class by.arabienko.bean.CompositeParts
+2022-02-16 22:00:44 [main] DEBUG arabienko.service.impl.collect.CollectSentence - Start collect from composite to sentence. class by.arabienko.bean.CompositeParts
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseTextToParagraph - Paragraph: One two three four. Red, green, black.
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseParagraphToSentence - sentence: One two three four.
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: One
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: One
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: O
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: n
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: two
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: two
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: t
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: w
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: o
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: three
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: three
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: t
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: h
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: r
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: four.
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: four
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: f
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: o
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: u
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: r
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: .
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: .
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseParagraphToSentence - sentence: Red, green, black.
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: Red,
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: Red
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: R
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: d
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: ,
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: ,
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: green,
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: green
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: g
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: r
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: n
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: ,
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: ,
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: black.
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: black
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: b
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: l
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: a
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: c
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: k
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: .
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: .
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseTextToParagraph - Paragraph: One two three four five. Red, green, black ((5>>5)^(6<<6))&2 go.
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseParagraphToSentence - sentence: One two three four five.
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: One
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: One
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: O
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: n
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: two
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: two
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: t
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: w
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: o
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: three
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: three
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: t
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: h
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: r
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: four
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: four
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: f
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: o
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: u
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: r
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: five.
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: five
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: f
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: i
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: v
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: .
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: .
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseParagraphToSentence - sentence: Red, green, black ((5>>5)^(6<<6))&2 go.
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: Red,
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: Red
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: R
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: d
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: ,
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: ,
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: green,
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: green
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: g
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: r
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: n
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: ,
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: ,
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: black
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: black
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: b
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: l
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: a
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: c
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: k
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: ((5>>5)^(6<<6))&2
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: ((5>>5)^(6<<6))&2
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: (
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: (
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: 5
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: >
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: >
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: 5
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: )
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: ^
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: (
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: 6
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: <
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: <
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: 6
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: )
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: )
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: &
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: 2
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: go.
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: go
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: g
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: o
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: .
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: .
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseTextToParagraph - Paragraph: Three cats. Red - green. By.
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseParagraphToSentence - sentence: Three cats.
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: Three
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: Three
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: T
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: h
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: r
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: cats.
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: cats
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: c
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: a
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: t
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: s
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: .
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: .
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseParagraphToSentence - sentence: Red - green.
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: Red
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: Red
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: R
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: d
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: -
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: -
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: -
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: green.
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: green
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: g
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: r
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: n
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: .
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: .
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseParagraphToSentence - sentence: By.
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: By.
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: By
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: B
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: y
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: .
+2022-02-16 22:00:44 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: .
+2022-02-16 22:00:44 [main] DEBUG arabienko.service.impl.sort.SortLexemesBySymbolCount - Sort lexemes by symbol count.- e
+2022-02-16 22:00:44 [main] DEBUG arabienko.service.impl.sort.SortWordsInSentencesByLength - Sort words in sentences by length.
+2022-02-16 22:00:44 [main] DEBUG arabienko.service.impl.sort.SortWordsInSentencesByLength - Sort words in sentences by length.
+2022-02-16 22:00:44 [main] DEBUG arabienko.service.impl.sort.SortWordsInSentencesByLength - Sort words in sentences by length.
+2022-02-16 22:00:44 [main] DEBUG arabienko.service.impl.sort.SortWordsInSentencesByLength - Sort words in sentences by length.
+2022-02-16 22:00:44 [main] DEBUG arabienko.service.impl.sort.SortWordsInSentencesByLength - Sort words in sentences by length.
+2022-02-16 22:00:44 [main] DEBUG arabienko.service.impl.sort.SortWordsInSentencesByLength - Sort words in sentences by length.
+2022-02-16 22:00:44 [main] DEBUG arabienko.service.impl.sort.SortWordsInSentencesByLength - Sort words in sentences by length.
+2022-02-16 22:00:44 [main] DEBUG by.arabienko.service.impl.WriterToFile - The text is read into a line. text_test
+2022-02-16 22:00:44 [main] DEBUG by.arabienko.service.impl.WriterToFile - File not found. 
+2022-02-16 22:00:44 [main] DEBUG by.arabienko.service.impl.WriterToFile - Error reading file... 
+2022-02-16 22:00:44 [main] DEBUG by.arabienko.service.impl.WriterToFile - Text was written to file output.txt
+2022-02-16 22:00:44 [main] DEBUG by.arabienko.service.impl.WriterToFile - The text is read into a line. output.txt
+2022-02-16 22:00:55 [main] DEBUG arabienko.service.impl.collect.CollectText - Start collect from composite to text. class by.arabienko.bean.CompositeParts
+2022-02-16 22:00:55 [main] DEBUG arabienko.service.impl.collect.CollectParagraph - Start collect from composite to paragraph. class by.arabienko.bean.CompositeParts
+2022-02-16 22:00:55 [main] DEBUG arabienko.service.impl.collect.CollectSentence - Start collect from composite to sentence. class by.arabienko.bean.CompositeParts
+2022-02-16 22:00:55 [main] DEBUG arabienko.service.impl.collect.CollectSentence - Start collect from composite to sentence. class by.arabienko.bean.CompositeParts
+2022-02-16 22:00:55 [main] DEBUG arabienko.service.impl.collect.CollectParagraph - Start collect from composite to paragraph. class by.arabienko.bean.CompositeParts
+2022-02-16 22:00:55 [main] DEBUG arabienko.service.impl.collect.CollectSentence - Start collect from composite to sentence. class by.arabienko.bean.CompositeParts
+2022-02-16 22:00:55 [main] DEBUG arabienko.service.impl.collect.CollectSentence - Start collect from composite to sentence. class by.arabienko.bean.CompositeParts
+2022-02-16 22:00:55 [main] DEBUG arabienko.service.impl.collect.CollectParagraph - Start collect from composite to paragraph. class by.arabienko.bean.CompositeParts
+2022-02-16 22:00:55 [main] DEBUG arabienko.service.impl.collect.CollectSentence - Start collect from composite to sentence. class by.arabienko.bean.CompositeParts
+2022-02-16 22:00:55 [main] DEBUG arabienko.service.impl.collect.CollectSentence - Start collect from composite to sentence. class by.arabienko.bean.CompositeParts
+2022-02-16 22:00:55 [main] DEBUG arabienko.service.impl.collect.CollectSentence - Start collect from composite to sentence. class by.arabienko.bean.CompositeParts
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseTextToParagraph - Paragraph: One two three four. Red, green, black.
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseParagraphToSentence - sentence: One two three four.
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: One
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: One
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: O
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: n
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: two
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: two
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: t
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: w
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: o
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: three
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: three
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: t
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: h
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: r
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: four.
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: four
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: f
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: o
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: u
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: r
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: .
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: .
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseParagraphToSentence - sentence: Red, green, black.
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: Red,
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: Red
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: R
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: d
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: ,
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: ,
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: green,
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: green
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: g
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: r
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: n
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: ,
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: ,
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: black.
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: black
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: b
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: l
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: a
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: c
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: k
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: .
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: .
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseTextToParagraph - Paragraph: One two three four five. Red, green, black ((5>>5)^(6<<6))&2 go.
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseParagraphToSentence - sentence: One two three four five.
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: One
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: One
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: O
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: n
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: two
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: two
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: t
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: w
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: o
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: three
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: three
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: t
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: h
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: r
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: four
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: four
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: f
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: o
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: u
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: r
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: five.
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: five
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: f
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: i
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: v
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: .
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: .
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseParagraphToSentence - sentence: Red, green, black ((5>>5)^(6<<6))&2 go.
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: Red,
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: Red
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: R
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: d
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: ,
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: ,
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: green,
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: green
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: g
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: r
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: n
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: ,
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: ,
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: black
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: black
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: b
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: l
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: a
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: c
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: k
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: ((5>>5)^(6<<6))&2
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: ((5>>5)^(6<<6))&2
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: (
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: (
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: 5
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: >
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: >
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: 5
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: )
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: ^
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: (
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: 6
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: <
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: <
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: 6
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: )
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: )
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: &
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: 2
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: go.
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: go
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: g
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: o
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: .
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: .
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseTextToParagraph - Paragraph: Three cats. Red - green. By.
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseParagraphToSentence - sentence: Three cats.
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: Three
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: Three
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: T
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: h
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: r
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: cats.
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: cats
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: c
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: a
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: t
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: s
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: .
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: .
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseParagraphToSentence - sentence: Red - green.
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: Red
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: Red
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: R
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: d
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: -
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: -
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: -
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: green.
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: green
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: g
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: r
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: e
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: n
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: .
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: .
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseParagraphToSentence - sentence: By.
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseSentenceToLexeme - lexeme: By.
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: By
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: B
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: y
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseLexemeToWords - words: .
+2022-02-16 22:00:55 [main] INFO  arabienko.service.impl.parse.ParseWordsToSymbol - character: .
+2022-02-16 22:00:55 [main] DEBUG arabienko.service.impl.sort.SortLexemesBySymbolCount - Sort lexemes by symbol count.- e
+2022-02-16 22:00:55 [main] DEBUG arabienko.service.impl.sort.SortWordsInSentencesByLength - Sort words in sentences by length.
+2022-02-16 22:00:55 [main] DEBUG arabienko.service.impl.sort.SortWordsInSentencesByLength - Sort words in sentences by length.
+2022-02-16 22:00:55 [main] DEBUG arabienko.service.impl.sort.SortWordsInSentencesByLength - Sort words in sentences by length.
+2022-02-16 22:00:55 [main] DEBUG arabienko.service.impl.sort.SortWordsInSentencesByLength - Sort words in sentences by length.
+2022-02-16 22:00:55 [main] DEBUG arabienko.service.impl.sort.SortWordsInSentencesByLength - Sort words in sentences by length.
+2022-02-16 22:00:55 [main] DEBUG arabienko.service.impl.sort.SortWordsInSentencesByLength - Sort words in sentences by length.
+2022-02-16 22:00:55 [main] DEBUG arabienko.service.impl.sort.SortWordsInSentencesByLength - Sort words in sentences by length.
+2022-02-16 22:00:55 [main] DEBUG by.arabienko.service.impl.WriterToFile - The text is read into a line. text_test
+2022-02-16 22:00:55 [main] DEBUG by.arabienko.service.impl.WriterToFile - File not found. 
+2022-02-16 22:00:55 [main] DEBUG by.arabienko.service.impl.WriterToFile - Error reading file... 
+2022-02-16 22:00:55 [main] DEBUG by.arabienko.service.impl.WriterToFile - Text was written to file output.txt
+2022-02-16 22:00:55 [main] DEBUG by.arabienko.service.impl.WriterToFile - The text is read into a line. output.txt
