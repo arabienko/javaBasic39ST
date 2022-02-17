@@ -14,6 +14,7 @@ import static org.testng.Assert.*;
 public class ParseTextToParagraphTest {
     ParseTextToParagraph parseTextToParagraph;
     CompositeParts text = new CompositeParts(TypeRegex.DELIM_PARAGRAPH.getRegexForSplit());
+    CompositeParts text2 = new CompositeParts(TypeRegex.DELIM_PARAGRAPH.getRegexForSplit());
 
     public ParseTextToParagraphTest() {
         this.parseTextToParagraph = new ParseTextToParagraph();
@@ -416,6 +417,7 @@ public class ParseTextToParagraphTest {
         paragraphThree.addElement(parThreeSentOne);
         paragraphThree.addElement(parThreeSentTwo);
         paragraphThree.addElement(parThreeSentThree);
+        text2.addElement(parOneSentOne);
     }
 
     public CompositeParts getText() {
@@ -423,7 +425,7 @@ public class ParseTextToParagraphTest {
     }
 
     @DataProvider(name = "Composite_parser")
-    public Object[][] dateForArithmeticSum() {
+    public Object[][] compositeParser() {
         String str = "One two three four. Red, green, black." +
                 "\t\n One two three four five. Red, green, black ((5>>5)^(6<<6))&2 go." +
                 "\n\t Three cats. Red - green. By.\n";
@@ -439,6 +441,34 @@ public class ParseTextToParagraphTest {
         CompositeParts actual =
                 new CompositeParts(TypeRegex.DELIM_PARAGRAPH.getRegexForSplit());
         parseTextToParagraph.handleRequest(actual, str);
+        assertEquals(actual, text);
+    }
+
+    @DataProvider(name = "Composite_parser2")
+    public Object[][] compositeParser2() {
+        String str = "One two three four.";
+        return new Object[][]{
+                new Object[]{text2, str},
+        };
+    }
+
+    /**
+     * @param text Composite:
+     *             Checking text parsing
+     *             from lexemes to symbols.
+     * @param str Text to parse.
+     */
+    @Test(description = "Test parser",
+            dataProvider = "Composite_parser2")
+    public void testHandleRequest2(CompositeParts text, String str) {
+        ParseSentenceToLexeme parseLexemeToWords =
+                new ParseSentenceToLexeme();
+        ParseTextToParagraph parseTextToParagraph1 =
+                new ParseTextToParagraph(parseLexemeToWords);
+        CompositeParts actual =
+                new CompositeParts(
+                        TypeRegex.DELIM_PARAGRAPH.getRegexForSplit());
+        parseTextToParagraph1.handleRequest(actual, str);
         assertEquals(actual, text);
     }
 }
