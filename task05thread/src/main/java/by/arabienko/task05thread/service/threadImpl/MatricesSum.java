@@ -55,7 +55,7 @@ public class MatricesSum implements Callable<Matrix>, IThread {
                 validation.checkIsEmptyMatrix(matrixSecond)) {
             newNum =
                     new Number[matrixFirst.getNumberRows()][];
-            Phaser phaser = new Phaser();
+            Phaser phaser = new Phaser(1);
             List<Future<Number[]>> futureList = new ArrayList<>();
             ExecutorService pool =
                     Executors.newFixedThreadPool(10);
@@ -68,7 +68,6 @@ public class MatricesSum implements Callable<Matrix>, IThread {
             for (int i = 0; i < matrixFirst.getNumberRows(); i++) {
                 newNum[i] = futureList.get(i).get();
             }
-            phaser.arriveAndDeregister();
             pool.shutdown();
             newMatrix = new Matrix(newNum);
         } else {

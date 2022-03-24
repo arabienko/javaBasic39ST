@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<courses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://arabienko.by/xmlparser/entity/curses"
+         xsi:schemaLocation="http://arabienko.by/xmlparser/entity/curses curses.xsd">
+
+    <studentCourse>
+        <id>1</id>
+        <courseTeacher>
+            <id>1</id>
+            <teacherSubject>
+                <id>1</id>
+                <userTeacher>
+                    <id>1</id>
+                    <surname>Teacher</surname>
+                    <name>Tacher</name>
+                    <phone>+375295555555</phone>
+                    <pathPhoto>url1</pathPhoto>
+                </userTeacher>
+                <subject>
+                    <id>1</id>
+                    <nameSubject>Java</nameSubject>
+                </subject>
+            </teacherSubject>
+            <startDate>2022-08-01</startDate>
+            <endDate>2022-12-01</endDate>
+        </courseTeacher>
+        <userInfo>
+            <id>1</id>
+            <surname>Student</surname>
+            <name>Lena</name>
+            <phone>+375294444444</phone>
+            <pathPhoto>url2</pathPhoto>
+        </userInfo>
+        <status>learning</status>
+    </studentCourse>
+</courses>

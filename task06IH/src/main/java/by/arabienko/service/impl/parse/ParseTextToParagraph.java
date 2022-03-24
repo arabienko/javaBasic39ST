@@ -16,6 +16,7 @@ import java.util.regex.Pattern;
 public class ParseTextToParagraph extends ParseParagraphToSentence {
     private static final Logger LOGGER =
             LogManager.getLogger(ParseTextToParagraph.class);
+
     private IParse root;
 
     public ParseTextToParagraph(IParse root) {

@@ -1,0 +1,305 @@
+2022-03-23 19:26:37 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 19:26:37 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 19:26:37 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Document is not selected.
+2022-03-23 19:26:37 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: DOM
+2022-03-23 19:26:37 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - DOM
+2022-03-23 19:26:37 [http-nio-8080-exec-2] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-23 19:26:37 [http-nio-8080-exec-2] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - SAX error. java.io.FileNotFoundException: C:\Users\User\Desktop\java39ST\task07xml\webapp\upload (???????? ? ???????)
+2022-03-23 19:28:01 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 19:28:01 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 19:28:01 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: DOM
+2022-03-23 19:28:01 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - DOM
+2022-03-23 19:28:01 [http-nio-8080-exec-2] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-23 19:28:01 [http-nio-8080-exec-2] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - SAX error. java.io.FileNotFoundException: C:\Users\User\Desktop\java39ST\task07xml\webapp\upload (???????? ? ???????)
+2022-03-23 19:29:03 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 19:29:03 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 19:29:03 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: DOM
+2022-03-23 19:29:03 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - DOM
+2022-03-23 19:29:03 [http-nio-8080-exec-2] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-23 19:29:03 [http-nio-8080-exec-2] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - SAX error. java.io.FileNotFoundException: C:\Users\User\Desktop\java39ST\task07xml\webapp\upload (???????? ? ???????)
+2022-03-23 19:31:31 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 19:31:31 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 19:31:31 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: DOM
+2022-03-23 19:31:31 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - DOM
+2022-03-23 19:31:31 [http-nio-8080-exec-3] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-23 19:31:31 [http-nio-8080-exec-3] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - SAX error. java.io.FileNotFoundException: C:\Users\User\Desktop\java39ST\task07xml\webapp\upload (???????? ? ???????)
+2022-03-23 19:33:02 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 19:33:02 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 19:33:02 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: DOM
+2022-03-23 19:33:02 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - DOM
+2022-03-23 19:33:02 [http-nio-8080-exec-3] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-23 19:33:02 [http-nio-8080-exec-3] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - SAX error. java.io.FileNotFoundException: C:\Users\User\Desktop\java39ST\task07xml\webapp\upload (???????? ? ???????)
+2022-03-23 19:35:38 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 19:35:38 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 19:35:38 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: DOM
+2022-03-23 19:35:38 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Document is not selected.
+2022-03-23 19:35:38 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - DOM
+2022-03-23 19:35:38 [http-nio-8080-exec-3] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-23 19:35:38 [http-nio-8080-exec-3] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - SAX error. java.io.FileNotFoundException: C:\Users\User\Desktop\java39ST\task07xml\webapp\upload (???????? ? ???????)
+2022-03-23 19:35:43 [http-nio-8080-exec-4] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 19:35:43 [http-nio-8080-exec-4] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 19:35:43 [http-nio-8080-exec-4] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: DOM
+2022-03-23 19:35:43 [http-nio-8080-exec-4] DEBUG by.arabienko.controller.ServletParseXml - Document is not selected.
+2022-03-23 19:35:43 [http-nio-8080-exec-4] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - DOM
+2022-03-23 19:35:43 [http-nio-8080-exec-4] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-23 19:36:34 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 19:36:34 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 19:36:34 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: DOM
+2022-03-23 19:36:34 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Document is not selected.
+2022-03-23 19:39:11 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 19:39:11 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 19:39:11 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: DOM
+2022-03-23 19:39:11 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Document is not selected.
+2022-03-23 19:39:11 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - Document is not selected.
+2022-03-23 19:39:11 [http-nio-8080-exec-2] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-23 19:39:25 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 19:39:25 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 19:39:25 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: SAX
+2022-03-23 19:39:25 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Document is not selected.
+2022-03-23 19:39:25 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - Document is not selected.
+2022-03-23 19:39:25 [http-nio-8080-exec-3] DEBUG arabienko.service.xmlparser.SAX.StudentCoursesSAXBuilder - C:\Users\User\Desktop\java39ST\task07xml\webapp\upload\curse.xml is valid.
+2022-03-23 19:39:25 [http-nio-8080-exec-3] DEBUG arabienko.service.xmlparser.SAX.StudentCourseSaxHandler - START SAX parser: generating a collection of objects based on parsing an XML document 
+2022-03-23 19:39:25 [http-nio-8080-exec-3] DEBUG arabienko.service.xmlparser.SAX.StudentCourseSaxHandler - FINISH SAX parser: generating a collection of objects based on parsing an XML document 
+2022-03-23 19:40:32 [http-nio-8080-exec-8] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 19:40:32 [http-nio-8080-exec-8] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 19:40:32 [http-nio-8080-exec-8] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: DOM
+2022-03-23 19:40:32 [http-nio-8080-exec-8] DEBUG by.arabienko.controller.ServletParseXml - Document is not selected.
+2022-03-23 19:40:32 [http-nio-8080-exec-8] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - Document is not selected.
+2022-03-23 19:40:32 [http-nio-8080-exec-8] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-23 19:40:40 [http-nio-8080-exec-10] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 19:40:40 [http-nio-8080-exec-10] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 19:40:40 [http-nio-8080-exec-10] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: DOM
+2022-03-23 19:40:40 [http-nio-8080-exec-10] DEBUG by.arabienko.controller.ServletParseXml - Document is not selected.
+2022-03-23 19:40:40 [http-nio-8080-exec-10] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - Document is not selected.
+2022-03-23 19:40:40 [http-nio-8080-exec-10] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-23 19:40:40 [http-nio-8080-exec-10] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - SAX error. java.io.FileNotFoundException: C:\Users\User\Desktop\java39ST\task07xml\webapp\upload (???????? ? ???????)
+2022-03-23 19:41:58 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 19:41:58 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 19:41:58 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: DOM
+2022-03-23 19:41:58 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Document is not selected.
+2022-03-23 19:41:58 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - DOM
+2022-03-23 19:41:58 [http-nio-8080-exec-2] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-23 19:42:03 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 19:42:03 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 19:42:03 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: SAX
+2022-03-23 19:42:03 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Document is not selected.
+2022-03-23 19:42:04 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - SAX
+2022-03-23 19:42:04 [http-nio-8080-exec-3] DEBUG arabienko.service.xmlparser.SAX.StudentCoursesSAXBuilder - C:\Users\User\Desktop\java39ST\task07xml\webapp\upload\curse.xml is valid.
+2022-03-23 19:42:04 [http-nio-8080-exec-3] DEBUG arabienko.service.xmlparser.SAX.StudentCourseSaxHandler - START SAX parser: generating a collection of objects based on parsing an XML document 
+2022-03-23 19:42:04 [http-nio-8080-exec-3] DEBUG arabienko.service.xmlparser.SAX.StudentCourseSaxHandler - FINISH SAX parser: generating a collection of objects based on parsing an XML document 
+2022-03-23 19:42:15 [http-nio-8080-exec-5] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 19:42:15 [http-nio-8080-exec-5] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 19:42:15 [http-nio-8080-exec-5] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: SAX
+2022-03-23 19:42:15 [http-nio-8080-exec-5] DEBUG by.arabienko.controller.ServletParseXml - Document is not selected.
+2022-03-23 19:42:15 [http-nio-8080-exec-5] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - SAX
+2022-03-23 19:42:15 [http-nio-8080-exec-5] DEBUG arabienko.service.xmlparser.SAX.StudentCoursesSAXBuilder - ошибка SAX парсера: org.xml.sax.SAXParseException; systemId: file:///C:/Users/User/Desktop/java39ST/task07xml/webapp/upload/; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+2022-03-23 19:42:24 [http-nio-8080-exec-7] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 19:42:24 [http-nio-8080-exec-7] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 19:42:24 [http-nio-8080-exec-7] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: SAX
+2022-03-23 19:42:24 [http-nio-8080-exec-7] DEBUG by.arabienko.controller.ServletParseXml - Document is not selected.
+2022-03-23 19:42:24 [http-nio-8080-exec-7] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - SAX
+2022-03-23 19:42:24 [http-nio-8080-exec-7] DEBUG arabienko.service.xmlparser.SAX.StudentCoursesSAXBuilder - ошибка SAX парсера: org.xml.sax.SAXParseException; systemId: file:///C:/Users/User/Desktop/java39ST/task07xml/webapp/upload/; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+2022-03-23 19:42:38 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 19:42:38 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 19:42:38 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: DOM
+2022-03-23 19:42:38 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Document is not selected.
+2022-03-23 19:42:38 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - DOM
+2022-03-23 19:42:38 [http-nio-8080-exec-2] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-23 19:42:38 [http-nio-8080-exec-2] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - SAX error. java.io.FileNotFoundException: C:\Users\User\Desktop\java39ST\task07xml\webapp\upload (???????? ? ???????)
+2022-03-23 19:52:14 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 19:52:14 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 19:52:14 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Document is not selected.
+2022-03-23 19:52:14 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: DOM
+2022-03-23 19:52:14 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - DOM
+2022-03-23 19:52:14 [http-nio-8080-exec-3] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-23 19:52:14 [http-nio-8080-exec-3] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - SAX error. java.io.FileNotFoundException: C:\Users\User\Desktop\java39ST\task07xml\webapp\upload (???????? ? ???????)
+2022-03-23 19:52:22 [http-nio-8080-exec-4] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 19:52:22 [http-nio-8080-exec-4] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 19:52:22 [http-nio-8080-exec-4] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: SAX
+2022-03-23 19:52:22 [http-nio-8080-exec-4] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - SAX
+2022-03-23 19:52:22 [http-nio-8080-exec-4] DEBUG arabienko.service.xmlparser.SAX.StudentCoursesSAXBuilder - C:\Users\User\Desktop\java39ST\task07xml\webapp\upload\curse.xml is valid.
+2022-03-23 19:52:22 [http-nio-8080-exec-4] DEBUG arabienko.service.xmlparser.SAX.StudentCourseSaxHandler - START SAX parser: generating a collection of objects based on parsing an XML document 
+2022-03-23 19:52:22 [http-nio-8080-exec-4] DEBUG arabienko.service.xmlparser.SAX.StudentCourseSaxHandler - FINISH SAX parser: generating a collection of objects based on parsing an XML document 
+2022-03-23 20:01:04 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 20:01:04 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 20:01:04 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: DOM
+2022-03-23 20:01:04 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - DOM
+2022-03-23 20:01:04 [http-nio-8080-exec-3] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-23 20:01:04 [http-nio-8080-exec-3] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - C:\Users\User\Desktop\java39ST\task07xml\webapp\upload\curse.xml is valid.
+2022-03-23 20:03:17 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 20:03:17 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 20:03:17 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: DOM
+2022-03-23 20:03:17 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - DOM
+2022-03-23 20:03:17 [http-nio-8080-exec-2] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-23 20:03:17 [http-nio-8080-exec-2] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - C:\Users\User\Desktop\java39ST\task07xml\webapp\upload\curse.xml is valid.
+2022-03-23 20:06:28 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 20:06:28 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 20:06:28 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Document is not selected.
+2022-03-23 20:06:28 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: SAX
+2022-03-23 20:06:29 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - SAX
+2022-03-23 20:06:29 [http-nio-8080-exec-2] DEBUG arabienko.service.xmlparser.SAX.StudentCoursesSAXBuilder - ошибка SAX парсера: org.xml.sax.SAXParseException; systemId: file:///C:/Users/User/Desktop/java39ST/task07xml/webapp/upload/; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+2022-03-23 20:06:29 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - The output of the parsing result - SAX
+2022-03-23 20:06:35 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 20:06:35 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 20:06:35 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: SAX
+2022-03-23 20:06:35 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - SAX
+2022-03-23 20:06:35 [http-nio-8080-exec-3] DEBUG arabienko.service.xmlparser.SAX.StudentCoursesSAXBuilder - C:\Users\User\Desktop\java39ST\task07xml\webapp\upload\curse.xml is valid.
+2022-03-23 20:06:35 [http-nio-8080-exec-3] DEBUG arabienko.service.xmlparser.SAX.StudentCourseSaxHandler - START SAX parser: generating a collection of objects based on parsing an XML document 
+2022-03-23 20:06:35 [http-nio-8080-exec-3] DEBUG arabienko.service.xmlparser.SAX.StudentCourseSaxHandler - FINISH SAX parser: generating a collection of objects based on parsing an XML document 
+2022-03-23 20:06:35 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - The output of the parsing result - SAX
+2022-03-23 20:09:05 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 20:09:05 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 20:09:05 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Document is not selected.
+2022-03-23 20:09:05 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: DOM
+2022-03-23 20:09:05 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - DOM
+2022-03-23 20:09:05 [http-nio-8080-exec-3] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-23 20:09:05 [http-nio-8080-exec-3] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - SAX error. org.xml.sax.SAXParseException; systemId: file:///C:/Users/User/Desktop/java39ST/task07xml/webapp/upload/; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+2022-03-23 20:09:05 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - The output of the parsing result - DOM
+2022-03-23 20:09:08 [http-nio-8080-exec-4] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 20:09:08 [http-nio-8080-exec-4] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 20:09:08 [http-nio-8080-exec-4] DEBUG by.arabienko.controller.ServletParseXml - Document is not selected.
+2022-03-23 20:09:08 [http-nio-8080-exec-4] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: SAX
+2022-03-23 20:09:08 [http-nio-8080-exec-4] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - SAX
+2022-03-23 20:09:08 [http-nio-8080-exec-4] DEBUG arabienko.service.xmlparser.SAX.StudentCoursesSAXBuilder - ошибка SAX парсера: org.xml.sax.SAXParseException; systemId: file:///C:/Users/User/Desktop/java39ST/task07xml/webapp/upload/; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+2022-03-23 20:09:08 [http-nio-8080-exec-4] DEBUG by.arabienko.controller.ServletParseXml - The output of the parsing result - SAX
+2022-03-23 20:09:40 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 20:09:40 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 20:09:40 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Document is not selected.
+2022-03-23 20:09:40 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: SAX
+2022-03-23 20:09:40 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - SAX
+2022-03-23 20:09:40 [http-nio-8080-exec-2] DEBUG arabienko.service.xmlparser.SAX.StudentCoursesSAXBuilder - ошибка SAX парсера: org.xml.sax.SAXParseException; systemId: file:///C:/Users/User/Desktop/java39ST/task07xml/webapp/upload/; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+2022-03-23 20:09:40 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - The output of the parsing result - SAX
+2022-03-23 20:09:50 [http-nio-8080-exec-4] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 20:09:50 [http-nio-8080-exec-4] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 20:09:50 [http-nio-8080-exec-4] DEBUG by.arabienko.controller.ServletParseXml - Document is not selected.
+2022-03-23 20:09:50 [http-nio-8080-exec-4] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: StAX
+2022-03-23 20:09:50 [http-nio-8080-exec-4] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - StAX
+2022-03-23 20:09:50 [http-nio-8080-exec-4] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - START STAX parser: generating a collection of objects based on parsing an XML document. C:\Users\User\Desktop\java39ST\task07xml\webapp\upload\
+2022-03-23 20:09:50 [http-nio-8080-exec-4] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - File C:\Users\User\Desktop\java39ST\task07xml\webapp\upload\ not found! java.io.FileNotFoundException: C:\Users\User\Desktop\java39ST\task07xml\webapp\upload (???????? ? ???????)
+2022-03-23 20:09:50 [http-nio-8080-exec-4] DEBUG by.arabienko.controller.ServletParseXml - The output of the parsing result - StAX
+2022-03-23 20:17:42 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 20:17:42 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 20:17:42 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: DOM
+2022-03-23 20:17:42 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - DOM
+2022-03-23 20:17:42 [http-nio-8080-exec-3] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-23 20:17:42 [http-nio-8080-exec-3] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - C:\Users\User\Desktop\java39ST\task07xml\webapp\upload\curse.xml is valid.
+2022-03-23 20:17:42 [http-nio-8080-exec-3] DEBUG by.arabienko.controller.ServletParseXml - The output of the parsing result - DOM
+2022-03-23 20:20:26 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-23 20:20:26 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-23 20:20:26 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: DOM
+2022-03-23 20:20:26 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - DOM
+2022-03-23 20:20:26 [http-nio-8080-exec-2] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-23 20:20:26 [http-nio-8080-exec-2] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - C:\Users\User\Desktop\java39ST\task07xml\webapp\upload\curse.xml is valid.
+2022-03-23 20:20:26 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - The output of the parsing result - DOM
+2022-03-24 19:16:36 [http-nio-8080-exec-5] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-24 19:16:36 [http-nio-8080-exec-5] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-24 19:16:37 [http-nio-8080-exec-5] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: DOM
+2022-03-24 19:16:37 [http-nio-8080-exec-5] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - DOM
+2022-03-24 19:16:37 [http-nio-8080-exec-5] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-24 19:16:37 [http-nio-8080-exec-5] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - ошибка DOM парсера:C:\Users\User\Desktop\java39ST\task07xml\webapp\upload\curse.xmlcvc-elt.1.a: Cannot find the declaration of element 'courses'.. 
+2022-03-24 19:16:37 [http-nio-8080-exec-5] DEBUG by.arabienko.controller.ServletParseXml - The output of the parsing result - DOM
+2022-03-24 19:26:06 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-24 19:26:06 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-24 19:26:06 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: DOM
+2022-03-24 19:26:06 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - DOM
+2022-03-24 19:26:06 [http-nio-8080-exec-2] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-24 19:26:06 [http-nio-8080-exec-2] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - C:\Users\User\Desktop\java39ST\task07xml\webapp\upload\curse.xml is valid.
+2022-03-24 19:26:06 [http-nio-8080-exec-2] DEBUG by.arabienko.controller.ServletParseXml - The output of the parsing result - DOM
+2022-03-24 19:29:06 [http-nio-8080-exec-5] DEBUG by.arabienko.controller.ServletParseXml - Start servlet.
+2022-03-24 19:29:06 [http-nio-8080-exec-5] DEBUG by.arabienko.controller.ServletParseXml - Upload path is C:\Users\User\Desktop\java39ST\task07xml\webapp\upload
+2022-03-24 19:29:06 [http-nio-8080-exec-5] DEBUG by.arabienko.controller.ServletParseXml - Select method parse: SAX
+2022-03-24 19:29:06 [http-nio-8080-exec-5] DEBUG by.arabienko.controller.ServletParseXml - Start parsing - SAX
+2022-03-24 19:29:06 [http-nio-8080-exec-5] DEBUG arabienko.service.xmlparser.SAX.StudentCoursesSAXBuilder - C:\Users\User\Desktop\java39ST\task07xml\webapp\upload\curse.xml is valid.
+2022-03-24 19:29:06 [http-nio-8080-exec-5] DEBUG arabienko.service.xmlparser.SAX.StudentCourseSaxHandler - START SAX parser: generating a collection of objects based on parsing an XML document 
+2022-03-24 19:29:06 [http-nio-8080-exec-5] DEBUG arabienko.service.xmlparser.SAX.StudentCourseSaxHandler - FINISH SAX parser: generating a collection of objects based on parsing an XML document 
+2022-03-24 19:29:06 [http-nio-8080-exec-5] DEBUG by.arabienko.controller.ServletParseXml - The output of the parsing result - SAX
+2022-03-24 19:30:08 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-24 19:30:08 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - ошибка I/О потока (DOM): test1 (?? ??????? ????? ????????? ????)
+2022-03-24 19:30:08 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-24 19:30:08 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - ошибка I/О потока (DOM): test2 (?? ??????? ????? ????????? ????)
+2022-03-24 19:30:08 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - Document is not exist. 
+2022-03-24 19:30:08 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - Document is not exist (DOM). 
+2022-03-24 19:30:08 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-24 19:30:08 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - ошибка I/О потока (DOM): err.xml (?? ??????? ????? ????????? ????)
+2022-03-24 19:30:08 [main] DEBUG arabienko.service.xmlparser.SAX.StudentCoursesSAXBuilder - ошибка I/О потока (SAX): C:\Users\User\Desktop\java39ST\task07xml\test1 (?? ??????? ????? ????????? ????)
+2022-03-24 19:30:08 [main] DEBUG arabienko.service.xmlparser.SAX.StudentCoursesSAXBuilder - ошибка I/О потока (SAX): C:\Users\User\Desktop\java39ST\task07xml\test2 (?? ??????? ????? ????????? ????)
+2022-03-24 19:30:08 [main] DEBUG arabienko.service.xmlparser.SAX.StudentCoursesSAXBuilder - Document is not exist (SAX). 
+2022-03-24 19:30:08 [main] DEBUG arabienko.service.xmlparser.SAX.StudentCoursesSAXBuilder - ошибка I/О потока (SAX): C:\Users\User\Desktop\java39ST\task07xml\err.xml (?? ??????? ????? ????????? ????)
+2022-03-24 19:30:08 [main] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - START STAX parser: generating a collection of objects based on parsing an XML document. test1
+2022-03-24 19:30:08 [main] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - File test1 not found! java.io.FileNotFoundException: test1 (?? ??????? ????? ????????? ????)
+2022-03-24 19:30:08 [main] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - START STAX parser: generating a collection of objects based on parsing an XML document. test2
+2022-03-24 19:30:08 [main] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - File test2 not found! java.io.FileNotFoundException: test2 (?? ??????? ????? ????????? ????)
+2022-03-24 19:30:08 [main] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - START STAX parser: generating a collection of objects based on parsing an XML document. 
+2022-03-24 19:30:08 [main] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - File  not found! java.io.FileNotFoundException:  (?? ??????? ????? ????????? ????)
+2022-03-24 19:30:08 [main] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - START STAX parser: generating a collection of objects based on parsing an XML document. err.xml
+2022-03-24 19:30:08 [main] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - File err.xml not found! java.io.FileNotFoundException: err.xml (?? ??????? ????? ????????? ????)
+2022-03-24 19:33:15 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-24 19:33:15 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - C:\Users\User\Desktop\java39ST\task07xml\src\test\resources\test1 is valid.
+2022-03-24 19:33:15 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-24 19:33:15 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - ошибка DOM парсера:C:\Users\User\Desktop\java39ST\task07xml\src\test\resources\test2cvc-elt.1.a: Cannot find the declaration of element 'courses'.. 
+2022-03-24 19:33:15 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - Document is not exist. 
+2022-03-24 19:33:15 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - Document is not exist (DOM). 
+2022-03-24 19:33:15 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-24 19:33:15 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - ошибка DOM парсера:C:\Users\User\Desktop\java39ST\task07xml\src\test\resources\err.xmlPremature end of file.. 
+2022-03-24 19:33:15 [main] DEBUG arabienko.service.xmlparser.SAX.StudentCoursesSAXBuilder - C:\Users\User\Desktop\java39ST\task07xml\src\test\resources\test1 is valid.
+2022-03-24 19:33:15 [main] DEBUG arabienko.service.xmlparser.SAX.StudentCourseSaxHandler - START SAX parser: generating a collection of objects based on parsing an XML document 
+2022-03-24 19:33:15 [main] DEBUG arabienko.service.xmlparser.SAX.StudentCourseSaxHandler - FINISH SAX parser: generating a collection of objects based on parsing an XML document 
+2022-03-24 19:33:15 [main] DEBUG arabienko.service.xmlparser.SAX.StudentCoursesSAXBuilder - ошибка SAX парсера:C:\Users\User\Desktop\java39ST\task07xml\src\test\resources\test2cvc-elt.1.a: Cannot find the declaration of element 'courses'.. 
+2022-03-24 19:33:15 [main] DEBUG arabienko.service.xmlparser.SAX.StudentCoursesSAXBuilder - Document is not exist (SAX). 
+2022-03-24 19:33:15 [main] DEBUG arabienko.service.xmlparser.SAX.StudentCoursesSAXBuilder - ошибка SAX парсера:C:\Users\User\Desktop\java39ST\task07xml\src\test\resources\err.xmlPremature end of file.. 
+2022-03-24 19:33:15 [main] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - START STAX parser: generating a collection of objects based on parsing an XML document. C:\Users\User\Desktop\java39ST\task07xml\src\test\resources\test1
+2022-03-24 19:33:15 [main] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - FINISH STAX parser: generating a collection of objects based on parsing an XML document.
+2022-03-24 19:33:15 [main] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - START STAX parser: generating a collection of objects based on parsing an XML document. C:\Users\User\Desktop\java39ST\task07xml\src\test\resources\test2
+2022-03-24 19:33:15 [main] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - FINISH STAX parser: generating a collection of objects based on parsing an XML document.
+2022-03-24 19:33:15 [main] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - START STAX parser: generating a collection of objects based on parsing an XML document. 
+2022-03-24 19:33:15 [main] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - File  not found! java.io.FileNotFoundException: 
+2022-03-24 19:33:15 [main] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - START STAX parser: generating a collection of objects based on parsing an XML document. C:\Users\User\Desktop\java39ST\task07xml\src\test\resources\err.xml
+2022-03-24 19:33:15 [main] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - StAX parsing error! ParseError at [row,col]:[1,1]
+Message: Premature end of file.
+2022-03-24 19:36:45 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-24 19:36:45 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - ошибка I/О потока (DOM): test1 (?? ??????? ????? ????????? ????)
+2022-03-24 19:36:45 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-24 19:36:45 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - ошибка I/О потока (DOM): test2 (?? ??????? ????? ????????? ????)
+2022-03-24 19:36:45 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - Document is not exist. 
+2022-03-24 19:36:45 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - Document is not exist (DOM). 
+2022-03-24 19:36:45 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-24 19:36:45 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - ошибка I/О потока (DOM): err.xml (?? ??????? ????? ????????? ????)
+2022-03-24 19:37:50 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-24 19:37:50 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - C:\Users\User\Desktop\java39ST\task07xml\src\test\resources\test1 is valid.
+2022-03-24 19:37:50 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-24 19:37:50 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - ошибка DOM парсера:C:\Users\User\Desktop\java39ST\task07xml\src\test\resources\test2cvc-elt.1.a: Cannot find the declaration of element 'courses'.. 
+2022-03-24 19:37:50 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - Document is not exist. 
+2022-03-24 19:37:50 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - Document is not exist (DOM). 
+2022-03-24 19:37:50 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-24 19:37:50 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - ошибка I/О потока (DOM): err.xml (?? ??????? ????? ????????? ????)
+2022-03-24 19:40:59 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-24 19:40:59 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - C:\Users\User\Desktop\java39ST\task07xml\src\test\resources\test1 is valid.
+2022-03-24 19:40:59 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-24 19:40:59 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - ошибка DOM парсера:C:\Users\User\Desktop\java39ST\task07xml\src\test\resources\test2cvc-elt.1.a: Cannot find the declaration of element 'courses'.. 
+2022-03-24 19:40:59 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - Document is not exist. 
+2022-03-24 19:40:59 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - Document is not exist (DOM). 
+2022-03-24 19:40:59 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-24 19:40:59 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - ошибка I/О потока (DOM): err.xml (?? ??????? ????? ????????? ????)
+2022-03-24 19:41:06 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-24 19:41:06 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - C:\Users\User\Desktop\java39ST\task07xml\src\test\resources\test1 is valid.
+2022-03-24 19:41:06 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-24 19:41:06 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - ошибка DOM парсера:C:\Users\User\Desktop\java39ST\task07xml\src\test\resources\test2cvc-elt.1.a: Cannot find the declaration of element 'courses'.. 
+2022-03-24 19:41:06 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - Document is not exist. 
+2022-03-24 19:41:06 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - Document is not exist (DOM). 
+2022-03-24 19:41:06 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - DOM parser: generating a collection of objects based on parsing an XML document. 
+2022-03-24 19:41:06 [main] DEBUG arabienko.service.xmlparser.DOM.StudentCourseDomBuilder - ошибка I/О потока (DOM): err.xml (?? ??????? ????? ????????? ????)
+2022-03-24 19:41:06 [main] DEBUG arabienko.service.xmlparser.SAX.StudentCoursesSAXBuilder - C:\Users\User\Desktop\java39ST\task07xml\src\test\resources\test1 is valid.
+2022-03-24 19:41:06 [main] DEBUG arabienko.service.xmlparser.SAX.StudentCourseSaxHandler - START SAX parser: generating a collection of objects based on parsing an XML document 
+2022-03-24 19:41:06 [main] DEBUG arabienko.service.xmlparser.SAX.StudentCourseSaxHandler - FINISH SAX parser: generating a collection of objects based on parsing an XML document 
+2022-03-24 19:41:06 [main] DEBUG arabienko.service.xmlparser.SAX.StudentCoursesSAXBuilder - ошибка SAX парсера:C:\Users\User\Desktop\java39ST\task07xml\src\test\resources\test2cvc-elt.1.a: Cannot find the declaration of element 'courses'.. 
+2022-03-24 19:41:06 [main] DEBUG arabienko.service.xmlparser.SAX.StudentCoursesSAXBuilder - Document is not exist (SAX). 
+2022-03-24 19:41:06 [main] DEBUG arabienko.service.xmlparser.SAX.StudentCoursesSAXBuilder - ошибка SAX парсера:C:\Users\User\Desktop\java39ST\task07xml\src\test\resources\err.xmlPremature end of file.. 
+2022-03-24 19:41:06 [main] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - START STAX parser: generating a collection of objects based on parsing an XML document. C:\Users\User\Desktop\java39ST\task07xml\src\test\resources\test1
+2022-03-24 19:41:06 [main] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - FINISH STAX parser: generating a collection of objects based on parsing an XML document.
+2022-03-24 19:41:06 [main] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - START STAX parser: generating a collection of objects based on parsing an XML document. C:\Users\User\Desktop\java39ST\task07xml\src\test\resources\test2
+2022-03-24 19:41:06 [main] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - FINISH STAX parser: generating a collection of objects based on parsing an XML document.
+2022-03-24 19:41:06 [main] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - START STAX parser: generating a collection of objects based on parsing an XML document. 
+2022-03-24 19:41:06 [main] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - File  not found! java.io.FileNotFoundException: 
+2022-03-24 19:41:06 [main] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - START STAX parser: generating a collection of objects based on parsing an XML document. C:\Users\User\Desktop\java39ST\task07xml\src\test\resources\err.xml
+2022-03-24 19:41:06 [main] DEBUG arabienko.service.xmlparser.StAX.StudentCourseStaxBuilder - StAX parsing error! ParseError at [row,col]:[1,1]
+Message: Premature end of file.

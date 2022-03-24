@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="be-BY">
+
+<head>
+    <title>Task07 Parsing</title>
+    <link href="css\stylesheet" rel="stylesheet">
+
+</head>
+<body>
+<div class="content">
+    <h1>Parsing XML file!!!</h1>
+    <br>
+    <h3>Select XML parse:</h3>
+    <br>
+    <h3>File Upload:</h3>
+    Select a file to upload: <br/>
+    <form method="POST" enctype="multipart/form-data" action="/webHelloApp/my">
+        Choose a file: <input type="file" name="multiPartServlet" />
+            <select type="text" name="selectParse">
+                <option value="DOM">DOM</option>
+                <option value="SAX">SAX</option>
+                <option value="StAX">StAX</option>
+            </select>
+            <button type="submit">Parsing start</button>
+        </form>
+</div>
+</body>
+</html>
